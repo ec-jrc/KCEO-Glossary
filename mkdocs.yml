@@ -1,5 +1,5 @@
 site_name: KCEO Glossary
-site_url: https://do-me.github.io/kceo_glossary/
+site_url: https://ec-jrc.github.io/KCEO-Glossary/
 site_author: KCEO
 site_description: KCEO
 
@@ -186,8 +186,8 @@ extra_css:
         - stylesheets/extra.css
         - stylesheets/font-awesome-4.7.0/css/font-awesome.min.css
 
-repo_url: https://github.com/do-me/kceo_glossary
-repo_name: do-me/kceo_glossary
+repo_url: https://github.com/ec-jrc/KCEO-Glossary
+repo_name: ec-jrc/KCEO-Glossary
 edit_uri: ./edit/main/docs
 
 # Copyright
