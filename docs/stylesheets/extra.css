@@ -1,0 +1,308 @@
+:root > * {
+  --md-primary-fg-color:        #034ea2;
+  --md-primary-fg-color--light: #ECB7B7;
+  --md-primary-fg-color--dark:  #a92358;
+  --md-accent-fg-color: #034ea2;
+  --table-td-background-even: #f8f8f8;
+  --table-td-background-uneven: white; 
+  --md-typeset-a-color: #8d8dc4;
+  --md-text-font: "Roboto";
+  --md-code-font: "Roboto Mono"
+}
+
+/* dark mode landing page specific*/
+ [data-md-color-scheme="slate"] {
+  --md-typeset-a-color: #b4b4f3;
+  --md-accent-fg-color: #c2c2ff;
+  --table-td-background-even: #464f6cad;
+  --table-td-background-uneven: #464f6c; 
+}
+
+/* Active tab bold & color */
+.md-tabs__link {
+    font-size: .75rem !important;
+}
+.md-tabs__link--active {
+    font-weight: bold !important;
+    /*color: var(--md-accent-fg-color);*/
+}
+.md-tabs__link:hover {
+    /*color: var(--md-accent-fg-color);*/
+}
+
+/* navigation bar active color*/
+.md-nav__item .md-nav__link--active {
+    font-weight: bold !important;
+    color: var(--md-accent-fg-color);
+}
+.md-nav__item .md-nav__link--active {
+    font-weight: bold !important;
+    font-size: .75rem !important;
+    color: var(--md-accent-fg-color);
+}
+
+/* frontpage elements */
+.tx-hero h1 {
+    font-size: 2.41rem !important;
+}
+a.md-button.md-button--primary {
+    background-color: var(--md-accent-fg-color);
+    border-color: var(--md-accent-fg-color);
+    color: #ffffff;
+}
+a.md-button.md-button--primary:hover {
+    color: #000000;
+}
+a.md-button.md-button:hover {
+    color: white;
+}
+.md-header__title {
+  margin-left: 0rem !important;
+}
+.md-header{
+  padding-top: 5px;
+}
+
+/*Table styling*/
+table {
+  padding: 0; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: var(--table-td-background-uneven);
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: var(--table-td-background-even) }
+    table tr th {
+      font-weight: bold;
+      border: 0px solid #cccccc;
+      text-align: centre;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th:empty{ /*leave out empty headers*/
+      display: none;
+    }
+    table tr td {
+      border: 0px solid #cccccc;
+      text-align: centre;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+/*Tabbed extension css*/
+.tabbed-set {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+}
+.tabbed-set .highlight {
+  background: #ddd;
+}
+.tabbed-set .tabbed-content {
+  display: none;
+  order: 99;
+  width: 100%;
+}
+.tabbed-set label {
+  width: auto;
+  margin: 0 0.5em;
+  padding: 0.25em;
+  font-size: 120%;
+  cursor: pointer;
+}
+.tabbed-set input {
+  position: absolute;
+  opacity: 0;
+}
+.tabbed-set input:nth-child(n+1) {
+  color: #333333;
+}
+.tabbed-set input:nth-child(n+1):checked + label {
+    color: #FF5252;
+}
+.tabbed-set input:nth-child(n+1):checked + label + .tabbed-content {
+    display: block;
+}
+
+/* Admonition settings option*/
+.md-typeset .admonition.settings, .md-typeset details.settings {
+    border-left: .22rem solid #448aff;
+}
+.md-typeset .admonition.settings>.admonition-title, .md-typeset details.settings>.admonition-title, .md-typeset details.settings>summary {
+    border-bottom: .1rem solid rgba(236, 243, 255), .1);
+    background-color: rgba(236, 243, 255), .1);
+}
+.md-typeset .admonition.settings>.admonition-title:before, .md-typeset details.settings>.admonition-title:before, .md-typeset details.settings>summary:before {
+    color: #448aff;
+    content: "settings"}
+
+/* Site width etc.*/
+.md-grid {
+    max-width: 64rem !important;
+}
+
+/* mkdocstrings styling
+/* Indentation. */
+div.doc-contents:not(.first) {
+  padding-left: 25px;
+  border-left: 4px solid rgba(230, 230, 230);
+
+}
+
+/* größerer Abstand bei Überschriften*/
+
+.md-typeset h1 {
+  margin: 0 0 1em !important;
+}
+
+.md-typeset a {
+  font-weight: bold !important;
+}
+
+.tx-hero__content p {
+  font-weight: bold;
+}
+
+/* roboto-300 - latin-ext_latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local(''),
+       url('../stylesheets/fonts/roboto-v30-latin-ext_latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../stylesheets/fonts/roboto-v30-latin-ext_latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-regular - latin-ext_latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../stylesheets/fonts/roboto-v30-latin-ext_latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../stylesheets/fonts/roboto-v30-latin-ext_latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-300italic - latin-ext_latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  src: local(''),
+       url('../stylesheets/fonts/roboto-v30-latin-ext_latin-300italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../stylesheets/fonts/roboto-v30-latin-ext_latin-300italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-italic - latin-ext_latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: local(''),
+       url('../stylesheets/fonts/roboto-v30-latin-ext_latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../stylesheets/fonts/roboto-v30-latin-ext_latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-500 - latin-ext_latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('../stylesheets/fonts/roboto-v30-latin-ext_latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../stylesheets/fonts/roboto-v30-latin-ext_latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-500italic - latin-ext_latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  src: local(''),
+       url('../stylesheets/fonts/roboto-v30-latin-ext_latin-500italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../stylesheets/fonts/roboto-v30-latin-ext_latin-500italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-700 - latin-ext_latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('../stylesheets/fonts/roboto-v30-latin-ext_latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../stylesheets/fonts/roboto-v30-latin-ext_latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-700italic - latin-ext_latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: local(''),
+       url('../stylesheets/fonts/roboto-v30-latin-ext_latin-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../stylesheets/fonts/roboto-v30-latin-ext_latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-mono-300 - latin-ext_latin */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../stylesheets/fonts/roboto-mono-v22-latin-ext_latin-300.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../stylesheets/fonts/roboto-mono-v22-latin-ext_latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../stylesheets/fonts/roboto-mono-v22-latin-ext_latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../stylesheets/fonts/roboto-mono-v22-latin-ext_latin-300.woff') format('woff'), /* Modern Browsers */
+       url('../stylesheets/fonts/roboto-mono-v22-latin-ext_latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../stylesheets/fonts/roboto-mono-v22-latin-ext_latin-300.svg#RobotoMono') format('svg'); /* Legacy iOS */
+}
+/* roboto-mono-regular - latin-ext_latin */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../stylesheets/fonts/roboto-mono-v22-latin-ext_latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../stylesheets/fonts/roboto-mono-v22-latin-ext_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../stylesheets/fonts/roboto-mono-v22-latin-ext_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../stylesheets/fonts/roboto-mono-v22-latin-ext_latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../stylesheets/fonts/roboto-mono-v22-latin-ext_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../stylesheets/fonts/roboto-mono-v22-latin-ext_latin-regular.svg#RobotoMono') format('svg'); /* Legacy iOS */
+}
+/* roboto-mono-500 - latin-ext_latin */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../stylesheets/fonts/roboto-mono-v22-latin-ext_latin-500.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../stylesheets/fonts/roboto-mono-v22-latin-ext_latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../stylesheets/fonts/roboto-mono-v22-latin-ext_latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../stylesheets/fonts/roboto-mono-v22-latin-ext_latin-500.woff') format('woff'), /* Modern Browsers */
+       url('../stylesheets/fonts/roboto-mono-v22-latin-ext_latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../stylesheets/fonts/roboto-mono-v22-latin-ext_latin-500.svg#RobotoMono') format('svg'); /* Legacy iOS */
+}
+/* roboto-mono-700 - latin-ext_latin */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../stylesheets/fonts/roboto-mono-v22-latin-ext_latin-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../stylesheets/fonts/roboto-mono-v22-latin-ext_latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../stylesheets/fonts/roboto-mono-v22-latin-ext_latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../stylesheets/fonts/roboto-mono-v22-latin-ext_latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../stylesheets/fonts/roboto-mono-v22-latin-ext_latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../stylesheets/fonts/roboto-mono-v22-latin-ext_latin-700.svg#RobotoMono') format('svg'); /* Legacy iOS */
+}
+
+/* mermaid-specific styles for wide graphs */
+.md-container {
+  overflow: auto;
+}
+
+.mermaid {
+  width: 5000px;
+}
+
+/*  causes some side effects, fix */
+.md-sidebar {
+    height: unset !important;
+    top: unset !important;
+}
