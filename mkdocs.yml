@@ -130,7 +130,7 @@ nav:
             - Verification: verification.md
             - Vertical levels: vertical_levels.md
 
-    - Changelog: changelog.md
+    #- Changelog: changelog.md
     - Blog:
       - blog/index.md
     - Contact: impressum.md
