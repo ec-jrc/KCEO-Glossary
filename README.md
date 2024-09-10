@@ -4,7 +4,27 @@
 The KCEO Glossary is built for the EO community. Your feedback and ideas are fundamental for the further development of this glossary. PR's and contributions of any kind are highly welcomed. 
 
 ### Contribution Guide
-coming soon
+[full guide coming soon]
+
+#### Editing files 
+Click the top right edit icon on a term page: 
+
+![image](https://github.com/user-attachments/assets/f8a3a10a-f91d-45fa-8c83-957057dab9ef)
+
+#### Tags 
+We currently use the following tag system: 
+
+If you want to add or remove tags you need to follow this syntax:
+
+```markdown
+---
+title: In-Situ Observation
+tags:
+  - to be discussed
+---
+```
+There is a tab in front of every tag followed by a hypen and a space.
+
 
 ## To Do's:
 - Update GitHub actions to run custom scripts for cross linking, topology and dependency graph every time. Requires some careful testing. High priority.
