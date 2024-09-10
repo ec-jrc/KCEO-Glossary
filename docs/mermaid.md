@@ -107,3 +107,13 @@ flowchart TD;
     id_feature(["<a href='../feature'>Feature</a>"]) --> id_geopositioning(["<a href='../geopositioning'>Geopositioning</a>"]);
     id_feature(["<a href='../feature'>Feature</a>"]) --> id_characteristic(["<a href='../characteristic'>Characteristic</a>"]);
 ```
+
+<style>
+.md-container {
+  overflow: auto;
+}
+
+.mermaid {
+  width: 5000px;
+}
+</style>

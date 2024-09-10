@@ -291,18 +291,3 @@ div.doc-contents:not(.first) {
        url('../stylesheets/fonts/roboto-mono-v22-latin-ext_latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../stylesheets/fonts/roboto-mono-v22-latin-ext_latin-700.svg#RobotoMono') format('svg'); /* Legacy iOS */
 }
-
-/* mermaid-specific styles for wide graphs */
-.md-container {
-  overflow: auto;
-}
-
-.mermaid {
-  width: 5000px;
-}
-
-/*  causes some side effects, fix */
-.md-sidebar {
-    height: unset !important;
-    top: unset !important;
-}
