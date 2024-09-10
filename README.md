@@ -35,7 +35,7 @@ We currently use the following tag system for:
 - to be approved
 - approved
 
-2. Class of term (from: "Lost in Translation: The Need for Common Vocabularies and an Interoperable Thesaurus in Earth Observation Sciences, to be published")
+2. Class of term (from: "Lost in Translation: The Need for Common Vocabularies and an Interoperable Thesaurus in Earth Observation Sciences, to be published", DOI: 10.1007/s10712-024-09854-8)
 - base term
 - core term
 - controversial term
