@@ -25,6 +25,21 @@ tags:
 ```
 There is a tab in front of every tag followed by a hypen and a space.
 
+We currently use the following tag system for: 
+
+1. Discussion status:
+- term to add (only tagged in issue/discussion)
+- to be defined
+- to be discussed
+- to be approved
+- approved
+
+2. Class of term (from: "Lost in Translation: The Need for Common Vocabularies and an Interoperable Thesaurus in Earth Observation Sciences, to be published")
+- base term
+- core term
+- controversial term
+- high-impact term
+
 
 ## To Do's:
 - Update GitHub actions to run custom scripts for cross linking, topology and dependency graph every time. Requires some careful testing. High priority.
