@@ -6,11 +6,13 @@ title: Earth spheres
 
 ## 1 Definition
 
-The earth spheres are divided into subsystems, these categories know as sphere, it’s defined as a collective of (physical) matter which share specific properties.
+Spheres dividing planet Earth into subsystems,which are collectives of (physical) matter sharing specific properties
 
 ### Notes 
 
 ### Examples 
 
 ### Sources
-- Martin, Y.E, et al 2012.
+- Hugget, R. et al, 2024, DOI: 10.1177/03091333241275465
+- Guth, P, et al, 2021, https://doi.org/10.3390/rs13183581
+- Martin, Y.E, et al 2012
