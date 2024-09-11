@@ -6,7 +6,7 @@ title: Earth spheres
 
 ## 1 Definition
 
-Spheres dividing planet Earth into subsystems, which are collectives of (physical) matter sharing specific [properties](../property)
+Spheres dividing planet Earth into subsystems, which are collectives of (physical) matter sharing specific [traits](../trait)
 
 ### Notes 
 
