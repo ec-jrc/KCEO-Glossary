@@ -6,7 +6,7 @@ title: Data
 
 ## 1 Definition
 
-Value and possibly uncertainty of a trait of a specific entity.
+[Value](../value) and possibly [uncertainty](../uncertainty) of a [trait](../trait) of a specific [entity](../entity).
 
 ### Notes 
 - Data simply describe entities using certain traits and are not targeted at a particular use or audience.
