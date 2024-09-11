@@ -6,7 +6,7 @@ title: Remote Sensing
 
 ## 1 Definition
 
-Remote sensing is a type of [Observation](../observation) performed at a significant distance from a [Phenomenon](../phenomenon).
+type of [Observation](../observation) performed at a significant distance from a [Phenomenon](../phenomenon).
 
 ### Notes 
 - ‘Significant’ in this context means that the distance has, or may have, a non-negligible [Impact](../impact) on the [Value](../value) of the [Property](../property) observed.
