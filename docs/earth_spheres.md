@@ -6,11 +6,17 @@ title: Earth spheres
 
 ## 1 Definition
 
-Spheres dividing planet Earth into subsystems,which are collectives of (physical) matter sharing specific properties
+Spheres dividing planet Earth into subsystems, which are collectives of (physical) matter sharing specific properties
 
 ### Notes 
 
-### Examples 
+### Examples
+- Atmosphere
+- Hydrosphere
+- Cryosphere
+- Biosphere
+- Lithosphere
+- Anthroposhere
 
 ### Sources
 - Hugget, R. et al, 2024, DOI: 10.1177/03091333241275465
