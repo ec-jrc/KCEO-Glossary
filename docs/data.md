@@ -1,5 +1,7 @@
 ---
 title: Data
+tags:
+- core
 ---
 
 # Data
