@@ -6,7 +6,7 @@ title: Position
 
 ## 1 Definition
 
-A [Place](../place) referenced by a single set of coordinates within a coordinate [Reference](../reference) system.
+[Place](../place) referenced by a single set of coordinates within a coordinate [Reference](../reference) system.
 
 ### Notes 
 - Opposite to (previous) ISO definition, position shall be used only for 0-dimensional primitives (points).
