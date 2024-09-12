@@ -2,7 +2,6 @@
 title: Observation
 tags:
  - core
- - controversial
 ---
 
 # Observation
