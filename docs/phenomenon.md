@@ -1,12 +1,14 @@
 ---
 title: Phenomenon
+tags:
+- base
 ---
 
 # Phenomenon
 
 ## 1 Definition
 
-A phenomenon is an [Entity](../entity) that has a least one [Property](../property) and is referenced by an identifier.
+[Entity](../entity) with at least one [Property](../property) referenced by an identifier.
 
 ### Notes 
 
