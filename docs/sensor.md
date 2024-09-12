@@ -1,5 +1,7 @@
 ---
 title: Sensor
+tags:
+- core
 ---
 
 # Sensor
