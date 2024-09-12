@@ -1,5 +1,7 @@
 ---
 title: Entity
+tags:
+- base
 ---
 
 # Entity
