@@ -2,7 +2,6 @@
 title: In-Situ Observation
 tags:
   - to be discussed
-  - controversial
 ---
 
 # In-Situ Observation
