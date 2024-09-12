@@ -1,5 +1,7 @@
 ---
 title: Sample
+tags:
+- controversial
 ---
 
 # Sample
