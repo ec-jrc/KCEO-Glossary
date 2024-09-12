@@ -18,6 +18,10 @@
   --table-td-background-uneven: #464f6c; 
 }
 
+.md-banner {
+    background-color: #f6ff00 !important;
+    color: #ff0000 !important;
+}
 /* Active tab bold & color */
 .md-tabs__link {
     font-size: .75rem !important;
