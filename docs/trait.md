@@ -1,5 +1,7 @@
 ---
 title: Trait
+tags:
+- base
 ---
 
 # Trait
