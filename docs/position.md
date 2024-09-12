@@ -1,5 +1,8 @@
 ---
 title: Position
+tags:
+- base
+- controversial
 ---
 
 # Position
