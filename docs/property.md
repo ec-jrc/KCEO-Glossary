@@ -1,12 +1,14 @@
 ---
 title: Property
+tags:
+- base
 ---
 
 # Property
 
 ## 1 Definition
 
-A [Trait](../trait) which is observable.
+observable [Trait](../trait)
 
 ### Notes 
 
