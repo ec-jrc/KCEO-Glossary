@@ -4,7 +4,6 @@
 {% block tabs %}
 {{ super() }}
 <style>
-
     .md-main {
         flex-grow: 1
     }
@@ -17,7 +16,7 @@
     .tx-container {
         padding-top: .0rem;
         background: linear-gradient(to bottom, var(--md-primary-fg-color),
-         rgb(14, 152, 194) 55%,#fff 100%)
+                rgb(14, 152, 194) 55%, #fff 100%)
     }
 
     .tx-hero {
@@ -39,21 +38,21 @@
         order: 2;
     }
 
-    .tx-hero__image1{
-        width:17rem;
-        height:17rem;
-        order:1;
+    .tx-hero__image1 {
+        width: 17rem;
+        height: 17rem;
+        order: 1;
         padding-right: 2.5rem;
     }
 
-    .tx-hero__image3{
-        height:17rem;
-        order:3;
+    .tx-hero__image3 {
+        height: 17rem;
+        order: 3;
         padding-right: 2.5rem;
     }
 
     .tx-hero__image1 img,
-    .tx-hero__image3 img{
+    .tx-hero__image3 img {
         max-height: 100%;
         max-width: unset !important;
     }
@@ -64,10 +63,10 @@
         color: var(--md-primary-bg-color)
     }
 
-    .tx-hero .md-button.login{
+    .tx-hero .md-button.login {
         margin-top: .5rem;
         margin-right: .5rem;
-        background-color: rgb(191,50,77);
+        background-color: rgb(191, 50, 77);
         color: white;
     }
 
@@ -80,7 +79,7 @@
     .tx-hero .md-button:focus,
     .tx-hero .md-button:hover {
         background-color: #2f6c8e;
-        border-color: white;       
+        border-color: white;
     }
 
     .feature-item h2 svg {
@@ -131,21 +130,23 @@
 
     /* person disappears on mobile, justify*/
     @media screen and (max-width:80em) {
-        .tx-hero__image1{
+        .tx-hero__image1 {
             display: none;
         }
     }
 
     @media screen and (max-width:35em) {
-    .tx-hero__image3{
-        padding-right: 0px !important;
-        height: initial;
+        .tx-hero__image3 {
+            padding-right: 0px !important;
+            height: initial;
         }
-    .tx-hero__image3 img{
-        max-height: 100%;
-        max-width: 100% !important;
+
+        .tx-hero__image3 img {
+            max-height: 100%;
+            max-width: 100% !important;
         }
-    .tx-hero h1{
+
+        .tx-hero h1 {
             white-space: initial;
         }
     }
@@ -256,90 +257,102 @@
         padding-top: 20px;
     }
 
- /* dark mode landing page specific*/
-[data-md-color-scheme="slate"] {
-  .top-hr .feature-item p {
-      color: white !important;
-  }
-}
+    /* dark mode landing page specific*/
+    [data-md-color-scheme="slate"] {
+        .top-hr .feature-item p {
+            color: white !important;
+        }
+    }
 
-/* General select styling */
-#termSearchSelect {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #e0e0e0;
-    background-color: #fafafa;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    color: #333;
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
-}
+    /* General select styling */
+    #termSearchSelect {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #e0e0e0;
+        background-color: #fafafa;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        color: #333;
+        transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    }
 
-/* Hover and focus effects */
-#termSearchSelect:hover {
-    border-color: #2196f3;
-}
+    /* Hover and focus effects */
+    #termSearchSelect:hover {
+        border-color: #2196f3;
+    }
 
-#termSearchSelect:focus {
-    outline: none;
-    border-color: #2196f3;
-    box-shadow: 0px 0px 6px rgba(33, 150, 243, 0.5);
-}
+    #termSearchSelect:focus {
+        outline: none;
+        border-color: #2196f3;
+        box-shadow: 0px 0px 6px rgba(33, 150, 243, 0.5);
+    }
 
-/* Option styling */
-#termSearchSelect option {
-    padding: 10px;
-    font-size: 15px;
-    color: #555;
-    background-color: #fff;
-    border-bottom: 1px solid #e0e0e0;
-}
+    /* Option styling */
+    #termSearchSelect option {
+        padding: 10px;
+        font-size: 15px;
+        color: #555;
+        background-color: #fff;
+        border-bottom: 1px solid #e0e0e0;
+    }
 
-#termSearchSelect option:hover {
-    background-color: #f5f5f5;
-}
+    #termSearchSelect option:hover {
+        background-color: #f5f5f5;
+    }
 
-/* Customize scrollbar for modern look */
-#termSearchSelect::-webkit-scrollbar {
-    width: 8px;
-}
+    /* Customize scrollbar for modern look */
+    #termSearchSelect::-webkit-scrollbar {
+        width: 8px;
+    }
 
-#termSearchSelect::-webkit-scrollbar-thumb {
-    background-color: #b0bec5;
-    border-radius: 10px;
-}
+    #termSearchSelect::-webkit-scrollbar-thumb {
+        background-color: #b0bec5;
+        border-radius: 10px;
+    }
 
-#termSearchSelect::-webkit-scrollbar-thumb:hover {
-    background-color: #78909c;
-}
+    #termSearchSelect::-webkit-scrollbar-thumb:hover {
+        background-color: #78909c;
+    }
 
-#termSearchSelect {
-    display: none; /* Hide by default */
-}
-
-
-
+    #termSearchSelect {
+        display: none;
+        /* Hide by default */
+    }
 </style>
 
 <!-- Main site Entry button descriptions -->
 <section class="tx-container">
     <div class="md-grid md-typeset">
-      <div class="tx-hero">
-        <div class="tx-hero__content">
-          <h1> KCEO Glossary </h1>
-          <h2> We are bridging Earth Observation communities. Get started with the glossary <a href="./introduction/" style="color: unset !important;">here</a> or contribute on <a href="https://github.com/ec-jrc/KCEO-Glossary" style="color: unset !important;" target="_blank">GitHub</a> </h2>
-        </div>
-        <div class="tx-hero__content">
+        <div class="tx-hero">
+            <div class="tx-hero__content">
+                <h1> KCEO Glossary </h1>
+                <h2> We are bridging Earth Observation communities. Get started with the glossary <a
+                        href="./introduction/" style="color: unset !important;">here</a> or contribute on <a
+                        href="https://github.com/ec-jrc/KCEO-Glossary" style="color: unset !important;"
+                        target="_blank">GitHub</a> </h2>
+            </div>
+            <div class="tx-hero__content" id="termSearchContainer">
 
-        <form class="md-search__form" name="termSearch">
-            <input type="text" class="md-search__input" id="termSearchInput" placeholder="Search terms..." autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query"">
-            <label class="md-search__icon md-icon" for="__search"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"></path></svg> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"></path></svg></label>
-            <select id="termSearchSelect" size="6"></select>
-        </form>
+                <form class="md-search__form" name="termSearch">
+                    <input type="text" class="md-search__input" id="termSearchInput" placeholder="Search terms..."
+                        autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false"
+                        data-md-component="search-query"">
+            <label class=" md-search__icon md-icon" for="__search"> <svg xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24">
+                        <path
+                            d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z">
+                        </path>
+                    </svg> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path
+                            d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z">
+                        </path>
+                    </svg></label>
+                    <select id="termSearchSelect" size="6"></select>
+                </form>
+            </div>
         </div>
-      </div>
     </div>
 </section>
 
@@ -349,7 +362,8 @@
         <h2>
             <i class="fa fa-connectdevelop" aria-hidden="true"></i> Topology
         </h2>
-        <p>Instead of creating a taxonomy we work with cross-links. Such a child-parent topology helps you quickly grasp the relevant context of a definition. See the <a href="./glossary_topology/">diagram</a>.</p>
+        <p>Instead of creating a taxonomy we work with cross-links. Such a child-parent topology helps you quickly grasp
+            the relevant context of a definition. See the <a href="./glossary_topology/">diagram</a>.</p>
     </div>
     <div class="feature-item">
         <h2>
@@ -362,7 +376,8 @@
         <h2>
             <i class="fa fa-users" aria-hidden="true"></i> Community-driven
         </h2>
-        <p>Discuss and contribute to this glossary!<br><b><a href="https://github.com/ec-jrc/KCEO-Glossary/issues" ><i class="fa fa-external-link" aria-hidden="true"></i> GitHub issues</a></b></p>
+        <p>Discuss and contribute to this glossary!<br><b><a href="https://github.com/ec-jrc/KCEO-Glossary/issues"><i
+                        class="fa fa-external-link" aria-hidden="true"></i> GitHub issues</a></b></p>
     </div>
 </div>
 
@@ -401,8 +416,8 @@
 
     // Object containing the terms and their corresponding markdown filenames
     const termSearchOptions = {
-            "Ancillary data": "./ancillary_data", "Anthroposphere": "./anthroposphere", "Area of interest": "./area_of_interest", "Auxiliary data": "./auxiliary_data", "Band central wavelength": "./band_central_wavelength", "Baseline": "./baseline", "Biosphere": "./biosphere", "Calibration": "./calibration", "Cartographic projection": "./cartographic_projection", "Cell": "./cell", "Characteristic": "./characteristic", "Classification system": "./classification_system", "Classification system levels": "./classification_system_levels", "Climate projection": "./climate_projection", "Confidence interval": "./confidence_interval", "Copernicus Service Provider": "./copernicus_service_provider", "Coverage interval": "./coverage_interval", "Cryosphere": "./cryosphere", "Data": "./data", "Data access": "./data_access", "Data format": "./data_format", "Data licencing": "./data_licencing", "Duration": "./duration", "Dwell time": "./dwell_time", "Earth Observation based output": "./earth_observation_based_output", "Earth Observation product": "./earth_observation_product", "Earth Spheres": "./earth_spheres", "Earth observation": "./earth_observation", "Environmental Process": "./environmental_process", "Entity": "./entity", "Expanded Uncertainty": "./expanded_uncertainty", "Feature": "./feature", "Forecast range": "./forecast_range", "Geocoding": "./geocoding", "Geographic coordinate reference system": "./geographic_coordinate_reference_system", "Geographic data": "./geographic_data", "Geographic grid": "./geographic_grid", "Geographic identifier": "./geographic_identifier", "Geolocating": "./geolocating", "Geolocation information": "./geolocation_information", "Geopositioning": "./geopositioning", "Georectifying": "./georectifying", "Geospatial data": "./geospatial_data", "Geosphere": "./geosphere", "Grid": "./grid", "Hydrosphere": "./hydrosphere", "Impact": "./impact", "In-Situ Observation": "./in-situ_observation", "Information": "./information", "Laboratory observation": "./laboratory_observation", "Latency": "./latency", "Lead time": "./lead_time", "Lithosphere": "./lithosphere", "Location": "./location", "Location error": "./location_error", "Measurement": "./measurement", "Measurement uncertainty": "./measurement_uncertainty", "Measurand": "./measurand", "Minimum Mapping Unit": "./minimum_mapping_unit", "Minimum Mapping Width": "./minimum_mapping_width", "Model": "./model", "Object": "./object", "Observation": "./observation", "Outcome": "./outcome", "Path": "./path", "Period": "./period", "Period Identifier": "./period_identifier", "Phenomenon": "./phenomenon", "Place": "./place", "Policy": "./policy", "Policy cycle": "./policy_cycle", "Policy file": "./policy_file", "Policy making": "./policy_making", "Policy milestone": "./policy_milestone", "Policy objective": "./policy_objective", "Policy target": "./policy_target", "Position": "./position", "Property": "./property", "Quality indicator": "./quality_indicator", "Quantity": "./quantity", "Reference": "./reference", "Remote Sensing": "./remote_sensing", "Replicability": "./replicability", "Reproducibility": "./reproducibility", "Representativeness": "./representativeness", "Sample": "./sample", "Sensor": "./sensor", "Spatial completeness": "./spatial_completeness", "Spatial consistency": "./spatial_consistency", "Spatial extent": "./spatial_extent", "Spatial reporting unit": "./spatial_reporting_unit", "Spatial resolution": "./spatial_resolution", "Spectral Bandwidth": "./spectral_bandwidth", "Spectral band": "./spectral_band", "Spectral resolution": "./spectral_resolution", "Stability": "./stability", "Standard Uncertainty": "./standard_uncertainty", "Temporal consistency": "./temporal_consistency", "Temporal extent": "./temporal_extent", "Temporal reporting period": "./temporal_reporting_period", "Temporal resolution": "./temporal_resolution", "Temporal revisit": "./temporal_revisit", "Thematic resolution": "./thematic_resolution", "Thematic uncertainty": "./thematic_uncertainty", "Time of day": "./time_of_day", "Time of year": "./time_of_year", "Timeliness": "./timeliness", "Traceability": "./traceability", "Trait": "./trait", "Uncertainty": "./uncertainty", "Update frequency": "./update_frequency", "User": "./user", "User Interface": "./user_interface", "Value": "./value", "Validation": "./validation", "Verification": "./verification", "Vertical levels": "./vertical_levels"
-        };
+        "Ancillary data": "./ancillary_data", "Anthroposphere": "./anthroposphere", "Area of interest": "./area_of_interest", "Auxiliary data": "./auxiliary_data", "Band central wavelength": "./band_central_wavelength", "Baseline": "./baseline", "Biosphere": "./biosphere", "Calibration": "./calibration", "Cartographic projection": "./cartographic_projection", "Cell": "./cell", "Characteristic": "./characteristic", "Classification system": "./classification_system", "Classification system levels": "./classification_system_levels", "Climate projection": "./climate_projection", "Confidence interval": "./confidence_interval", "Copernicus Service Provider": "./copernicus_service_provider", "Coverage interval": "./coverage_interval", "Cryosphere": "./cryosphere", "Data": "./data", "Data access": "./data_access", "Data format": "./data_format", "Data licencing": "./data_licencing", "Duration": "./duration", "Dwell time": "./dwell_time", "Earth Observation based output": "./earth_observation_based_output", "Earth Observation product": "./earth_observation_product", "Earth Spheres": "./earth_spheres", "Earth observation": "./earth_observation", "Environmental Process": "./environmental_process", "Entity": "./entity", "Expanded Uncertainty": "./expanded_uncertainty", "Feature": "./feature", "Forecast range": "./forecast_range", "Geocoding": "./geocoding", "Geographic coordinate reference system": "./geographic_coordinate_reference_system", "Geographic data": "./geographic_data", "Geographic grid": "./geographic_grid", "Geographic identifier": "./geographic_identifier", "Geolocating": "./geolocating", "Geolocation information": "./geolocation_information", "Geopositioning": "./geopositioning", "Georectifying": "./georectifying", "Geospatial data": "./geospatial_data", "Geosphere": "./geosphere", "Grid": "./grid", "Hydrosphere": "./hydrosphere", "Impact": "./impact", "In-Situ Observation": "./in-situ_observation", "Information": "./information", "Laboratory observation": "./laboratory_observation", "Latency": "./latency", "Lead time": "./lead_time", "Lithosphere": "./lithosphere", "Location": "./location", "Location error": "./location_error", "Measurement": "./measurement", "Measurement uncertainty": "./measurement_uncertainty", "Measurand": "./measurand", "Minimum Mapping Unit": "./minimum_mapping_unit", "Minimum Mapping Width": "./minimum_mapping_width", "Model": "./model", "Object": "./object", "Observation": "./observation", "Outcome": "./outcome", "Path": "./path", "Period": "./period", "Period Identifier": "./period_identifier", "Phenomenon": "./phenomenon", "Place": "./place", "Policy": "./policy", "Policy cycle": "./policy_cycle", "Policy file": "./policy_file", "Policy making": "./policy_making", "Policy milestone": "./policy_milestone", "Policy objective": "./policy_objective", "Policy target": "./policy_target", "Position": "./position", "Property": "./property", "Quality indicator": "./quality_indicator", "Quantity": "./quantity", "Reference": "./reference", "Remote Sensing": "./remote_sensing", "Replicability": "./replicability", "Reproducibility": "./reproducibility", "Representativeness": "./representativeness", "Sample": "./sample", "Sensor": "./sensor", "Spatial completeness": "./spatial_completeness", "Spatial consistency": "./spatial_consistency", "Spatial extent": "./spatial_extent", "Spatial reporting unit": "./spatial_reporting_unit", "Spatial resolution": "./spatial_resolution", "Spectral Bandwidth": "./spectral_bandwidth", "Spectral band": "./spectral_band", "Spectral resolution": "./spectral_resolution", "Stability": "./stability", "Standard Uncertainty": "./standard_uncertainty", "Temporal consistency": "./temporal_consistency", "Temporal extent": "./temporal_extent", "Temporal reporting period": "./temporal_reporting_period", "Temporal resolution": "./temporal_resolution", "Temporal revisit": "./temporal_revisit", "Thematic resolution": "./thematic_resolution", "Thematic uncertainty": "./thematic_uncertainty", "Time of day": "./time_of_day", "Time of year": "./time_of_year", "Timeliness": "./timeliness", "Traceability": "./traceability", "Trait": "./trait", "Uncertainty": "./uncertainty", "Update frequency": "./update_frequency", "User": "./user", "User Interface": "./user_interface", "Value": "./value", "Validation": "./validation", "Verification": "./verification", "Vertical levels": "./vertical_levels"
+    };
 
     const termSearchFilter = () => {
         const query = termSearchInput.value.toLowerCase();
@@ -465,4 +480,3 @@
 
 {% endblock %}
 {% block content %}{% endblock %}
-

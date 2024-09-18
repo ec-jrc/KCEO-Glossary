@@ -295,3 +295,9 @@ div.doc-contents:not(.first) {
        url('../stylesheets/fonts/roboto-mono-v22-latin-ext_latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../stylesheets/fonts/roboto-mono-v22-latin-ext_latin-700.svg#RobotoMono') format('svg'); /* Legacy iOS */
 }
+
+@media only screen and (max-width: 767px) {
+  #termSearchContainer {
+    display: none;
+  }
+}
