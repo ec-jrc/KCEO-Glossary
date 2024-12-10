@@ -2,7 +2,7 @@
 title: Policy
 ---
 
-# policy
+# Policy
 
 ## 1 Definition
 

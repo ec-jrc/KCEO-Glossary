@@ -2,7 +2,9 @@
 title: Remote Sensing
 ---
 
-# Remote Sensing (or Remote Observation)
+# Remote Sensing 
+
+**Synonyms**: Remote Observation
 
 ## 1 Definition
 
