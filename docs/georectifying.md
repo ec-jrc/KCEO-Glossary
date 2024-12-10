@@ -5,6 +5,7 @@ title: Georectifying
 # Georectifying
 
 **Synonyms**: 
+
 - Orthorectifying
 
 ## 1 Definition
