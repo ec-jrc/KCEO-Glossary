@@ -17,12 +17,10 @@ If you'd like to add an entirely new term to the glossary, you can do so by usin
 
 1. Creating a new markdown file under the `docs` directory, e.g. for `Your New Term`
 
-![image](https://github.com/user-attachments/assets/8147cc90-593e-4513-b349-ff655bacea28)
-
 You can copy the template from this file, change the content and commit the changes when you're done.
 https://github.com/ec-jrc/KCEO-Glossary/blob/main/docs/_template.md
 
-![image](https://github.com/user-attachments/assets/0c84518d-f65a-42e3-8fc0-5fcb2f3941ad)
+https://github.com/user-attachments/assets/6ac4090d-6aa9-4fd1-be2a-93158fd2dc95
 
 2. Now that the file is created, it must be referenced in `mkdocs.yml` so that the site builder knows where it should appear on the web page. Just open this file and reference it in alphabetic order.
 https://github.com/ec-jrc/KCEO-Glossary/blob/main/mkdocs.yml
