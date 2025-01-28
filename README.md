@@ -7,10 +7,29 @@ The KCEO Glossary is built for the EO community. Your feedback and ideas are fun
 ### Contribution Guide
 [full guide coming soon]
 
-#### Editing files 
+#### Editing existing terms 
 Click the top right edit icon on a term page: 
 
 ![image](https://github.com/user-attachments/assets/f8a3a10a-f91d-45fa-8c83-957057dab9ef)
+
+#### Adding new terms 
+If you'd like to add an entirely new term to the glossary, you can do so by using the GitHub UI. Two steps are necessary: 
+
+1. Creating a new markdown file under the `docs` directory, e.g. for `Your New Term`
+
+![image](https://github.com/user-attachments/assets/8147cc90-593e-4513-b349-ff655bacea28)
+
+You can copy the template from this file, change the content and commit the changes when you're done.
+https://github.com/ec-jrc/KCEO-Glossary/blob/main/docs/_template.md
+
+![image](https://github.com/user-attachments/assets/0c84518d-f65a-42e3-8fc0-5fcb2f3941ad)
+
+2. Now that the file is created, it must be referenced in `mkdocs.yml` so that the site builder knows where it should appear on the web page. Just open this file and reference it in alphabetic order.
+https://github.com/ec-jrc/KCEO-Glossary/blob/main/mkdocs.yml
+
+![image](https://github.com/user-attachments/assets/2c510f52-02c7-4cac-bc16-3bbfc5ffca3b)
+
+Commit the changes, done.
 
 #### Tags 
 We currently use the following tag system: 
