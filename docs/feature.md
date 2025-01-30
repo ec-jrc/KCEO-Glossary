@@ -1,5 +1,7 @@
 ---
 title: Feature
+tags:
+- base
 ---
 
 # Feature
