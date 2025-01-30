@@ -1,5 +1,7 @@
 ---
 title: Characteristic
+tags:
+- base
 ---
 
 # Characteristic
