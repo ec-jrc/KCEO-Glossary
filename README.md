@@ -5,7 +5,6 @@ Bridging EO communities. Contribute to this community-driven glossary and improv
 The KCEO Glossary is built for the EO community. Your feedback and ideas are fundamental for the further development of this glossary. PR's and contributions of any kind are highly welcomed. 
 
 ### Contribution Guide
-[full guide coming soon]
 
 #### Editing existing terms 
 Click the top right edit icon on a term page: 
