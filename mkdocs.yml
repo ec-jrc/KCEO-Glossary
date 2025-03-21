@@ -131,6 +131,7 @@ nav:
             - Vertical levels: vertical_levels.md
 
     #- Changelog: changelog.md
+    - Contribute: contribute.md
     - Blog:
       - blog/index.md
     - Contact: impressum.md

@@ -1,5 +1,7 @@
 ---
 title: Test term
+tags:
+- base
 ---
 
 # Test term
