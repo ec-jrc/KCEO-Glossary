@@ -343,3 +343,11 @@ div.doc-contents:not(.first) {
 		margin-left: calc(var(--permalink-size) * -1 - var(--permalink-spacing)) !important;
 	}
 }
+
+.md-search__form {
+  border-radius: 20px;
+}
+
+#termSearchSelect {
+  border-radius: 5px;
+}
