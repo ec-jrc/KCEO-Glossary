@@ -8,7 +8,7 @@ nav:
     - Glossary:
         - Introduction: introduction.md
         - Concepts: concepts.md
-        - Dependency Graph: mermaid.md
+        - Dependency Graph: sigmajs.md
         - Topology: glossary_topology.md
         - Tags: tags.md
         - Terms:
