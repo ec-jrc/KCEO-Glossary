@@ -8,11 +8,11 @@ tags:
 
 ## 1 Definition 
 
-Observation (the process) is the act of determining the [Value](../value) of [Property](../property) by interacting with the [Phenomenon](../phenomenon) using a [Sensor](../sensor). The obtained values are factual?( objective?, observational?) [Data](../data) and are often themselves refeered to as observations (the results of the process).
+the act of determining the [Value](../value) of a [Property](../property) by interacting with the [Phenomenon](../phenomenon) using a [Sensor](../sensor)
 
 ### Notes 
-- the observed [Value](../value) is usually complemented by an [Uncertainty](../uncertainty)
-- an observation (results) represents a [Sample](../sample) of [Phenomenon](../phenomenon) (otherwise it would be identical with the [Phenomenon](../phenomenon)) 
+- the result of an observation is a [Value](../value) complemented by an [Uncertainty](../uncertainty), which might also be called 'observation'
+- an observation (result) represents a [Sample](../sample) of [Phenomenon](../phenomenon) (otherwise it would be identical with the [Phenomenon](../phenomenon)) 
 
 ### Examples 
 
