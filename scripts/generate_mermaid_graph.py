@@ -71,7 +71,7 @@ def create_mermaid_diagram(graph):
 def main(directory, exclude_files):
     graph = parse_markdown_files(directory, exclude_files)
     mermaid_diagram = create_mermaid_diagram(graph)
-    with open('docs/mermaid.md', 'w') as f:
+    with open('./docs/mermaid.md', 'w') as f:
         f.write('```mermaid\n')
         f.write(mermaid_diagram)
         f.write('```\n')
