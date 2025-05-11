@@ -6,9 +6,9 @@ title: Quality indicator
 
 ## 1 Definition
 
-A quality indicator shall provide sufficient information to allow all users to readily evaluate 
-the “fitness for purpose” of the data or derived product. A Quality Indicator may be a number, 
-set of numbers, graph, uncertainty budget, or a simple “flag”. 
+A quality indicator shall provide sufficient [Information](../information) to allow all [users](../user) to readily evaluate 
+the “fitness for purpose” of the [Data](../data) or derived product. A Quality Indicator may be a number, 
+set of numbers, graph, [Uncertainty](../uncertainty) budget, or a simple “flag”. 
 
 ### Notes 
 

@@ -40,9 +40,9 @@ nav:
             - Earth Observation product: earth_observation_product.md
             - Earth Spheres: earth_spheres.md
             - Earth observation: earth_observation.md
-            - Environmental Process: environmental_process.md
+            - Environmental process: environmental_process.md
             - Entity: entity.md
-            - Expanded Uncertainty: expanded_uncertainty.md
+            - Expanded uncertainty: expanded_uncertainty.md
             - Feature: feature.md
             - Forecast range: forecast_range.md
             - Geocoding: geocoding.md
@@ -89,6 +89,7 @@ nav:
             - Policy objective: policy_objective.md
             - Policy target: policy_target.md
             - Position: position.md
+            - Process: process.md
             - Property: property.md
             - Quality indicator: quality_indicator.md
             - Quantity: quantity.md

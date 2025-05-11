@@ -9,8 +9,8 @@ title: Verification
 Provision of objective evidence that a given item fulfils specified requirements.
 
 ### Notes 
-- When applicable, [Measurement](../measurement) [Uncertainty](../uncertainty) should be taken into consideration.
-- The item may be, e.g. a process, [Measurement](../measurement) procedure, material, compound, or measuring system.
+- When applicable, [Measurement uncertainty](../measurement_uncertainty) should be taken into consideration.
+- The item may be, e.g. a [Process](../process), [Measurement](../measurement) procedure, material, compound, or measuring system.
 - The specified requirements may be, e.g. that a manufacturer's specifications are met.
 - Verification should not be confused with [Calibration](../calibration). Not every verification is a [Validation](../validation).
 
@@ -23,7 +23,7 @@ ___
 
 ## 2 Definition
 
-The evaluation of whether or not a product, service, or system complies with a regulation requirement, specification, or imposed condition. It is often an internal process.
+The evaluation of whether or not a product, service, or system complies with a regulation requirement, specification, or imposed condition. It is often an internal [Process](../process).
 
 ### Notes 
 

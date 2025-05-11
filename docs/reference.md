@@ -6,7 +6,7 @@ title: Reference
 
 ## 1 Definition
 
-A [Phenomenon](../phenomenon) whose values for specific properties are known and understood with an [Uncertainty](../uncertainty) significantly lower (quantify?) than that of the [Observation](../observation) with which it is compared.
+A [Phenomenon](../phenomenon) whose [values](../value) for specific properties are known and understood with an [Uncertainty](../uncertainty) significantly lower (quantify?) than that of the [Observation](../observation) with which it is compared.
 
 ### Notes 
 

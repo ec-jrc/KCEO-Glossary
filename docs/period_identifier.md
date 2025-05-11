@@ -9,7 +9,7 @@ title: Period Identifier
 Temporal [Reference](../reference) in the for of a label or code that identifies a [Period](../period).
 
 ### Notes 
-- [Period](../period) identifiers are the temporal equivalent of geographic identifiers as specified in ISO 19912
+- [Period](../period) identifiers are the temporal equivalent of [geographic identifiers](../geographic_identifier) as specified in ISO 19912
 
 ### Examples 
 

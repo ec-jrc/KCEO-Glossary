@@ -2,7 +2,7 @@ import re
 import os
 
 # Change the working directory to 'docs/'
-os.chdir("docs/")
+os.chdir("./docs/")
 
 # Function to remove relative links from the provided file paths
 def remove_relative_links(file_paths):

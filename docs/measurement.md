@@ -11,7 +11,7 @@ tags:
 [Observation](../observation) of a [Quantity](../quantity).
 
 ### Notes 
-- The process of collecting a measurement is called measuring.
+- The [Process](../process) of collecting a measurement is called measuring.
 
 ### Examples 
 

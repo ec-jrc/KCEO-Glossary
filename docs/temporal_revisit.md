@@ -6,11 +6,11 @@ title: Temporal Revisit
 
 ## 1 Definition
 
-The interval between successive observations.
+The interval between successive [observations](../observation).
 
 ### Notes 
 
-- In remote sensing it is also called repeat cycle.
+- In [Remote Sensing](../remote_sensing) it is also called repeat cycle.
 - More generally it is known as temporal sampling interval.
 
 ### Examples 

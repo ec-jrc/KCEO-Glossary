@@ -30,10 +30,10 @@ ___
 
 ## 2 Definition
 
-Abstraction of a [Property](../property) of an [Object](../object) or of a set of objects.
+Abstraction of a [Property](../property) of an [Object](../object) or of a set of [objects](../object).
 
 ### Notes 
-- Characteristics are used for describing concepts.
+- Characteristics are used for describing [Concepts](../concepts).
 
 ### Examples 
 

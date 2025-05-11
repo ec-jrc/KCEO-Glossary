@@ -11,11 +11,11 @@ Spheres dividing planet Earth into subsystems, which are collectives of (physica
 ### Notes 
 
 ### Examples
-- Atmosphere
-- Hydrosphere
-- Cryosphere
-- Biosphere
-- Lithosphere
+- [Atmosphere](../atmosphere)
+- [Hydrosphere](../hydrosphere)
+- [Cryosphere](../cryosphere)
+- [Biosphere](../biosphere)
+- [Lithosphere](../lithosphere)
 - Anthroposhere
 
 ### Sources

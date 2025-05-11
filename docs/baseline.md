@@ -6,7 +6,7 @@ title: Baseline
 
 ## 1 Definition
 
-The reference period, time or measure against which the information is assessed or compared
+The [Reference](../reference) [Period](../period), time or measure against which the [Information](../information) is assessed or compared
 
 ### Notes 
 

@@ -10,7 +10,7 @@ The time of the day that the variable or parameter is observed or simulated by a
 
 ### Notes 
 
-- In remote sensing it is also known as time of overpass.
+- In [Remote Sensing](../remote_sensing) it is also known as time of overpass.
 
 ### Examples 
 

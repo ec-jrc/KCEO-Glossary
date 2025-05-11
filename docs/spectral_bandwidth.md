@@ -6,7 +6,7 @@ title: Spectral Bandwidth
 
 ## 1 Definition
 
-The range of the spectral band.
+The range of the [Spectral band](../spectral_band).
 
 ### Notes 
 

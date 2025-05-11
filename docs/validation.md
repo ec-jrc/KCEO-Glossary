@@ -6,7 +6,7 @@ title: Validation
 
 ## 1 Definition
 
-Process of assessing, by independent means, the quality of the [Data](../data) products derived from the system outputs.
+[Process](../process) of assessing, by independent means, the quality of the [Data](../data) products derived from the system outputs.
 
 ### Notes 
 - In this part of ISO 19159, the term validation is used in a limited sense and only relates to the validation of [Calibration](../calibration) [Data](../data) in order to control their change over time.

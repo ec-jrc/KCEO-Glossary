@@ -6,7 +6,7 @@ title: Lithosphere
 
 ## 1 Definition
 
-The solid, inanimate outer layer of the [Geosphere](../Geosphere).  For the purposes of [Earth Observation](../Earth Observation), the lithosphere is considered to include soils (‘pedosphere’)
+The solid, inanimate outer layer of the [Geosphere](../geosphere).  For the purposes of [Earth Observation](../earth_observation), the lithosphere is considered to include soils (‘pedosphere’)
 
 ### Notes 
 

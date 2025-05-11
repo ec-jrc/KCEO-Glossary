@@ -6,7 +6,7 @@ title: Auxiliary Data
 
 ## 1 Definition
 
-[Data](../data), which enhance processing, and utilization of main [Sensor](../sensor) [Data](../data). The auxiliary [Data](../data) are usually not captured by the same [Data](../data) collection process or on the same platform as the main [Sensor](../sensor) [Data](../data). Examples are e.g. meteorological [Data](../data) received from ECWMF/Met or DEMs. Offices. Auxiliary [Data](../data) help in [Data](../data) processing, but are also [Data](../data) sets in their own right.
+[Data](../data), which enhance processing, and utilization of main [Sensor](../sensor) [Data](../data). The auxiliary [Data](../data) are usually not captured by the same [Data](../data) collection [Process](../process) or on the same platform as the main [Sensor](../sensor) [Data](../data). Examples are e.g. meteorological [Data](../data) received from ECWMF/Met or DEMs. Offices. Auxiliary [Data](../data) help in [Data](../data) processing, but are also [Data](../data) sets in their own right.
 
 ### Notes 
 

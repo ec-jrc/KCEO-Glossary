@@ -6,7 +6,7 @@ title: Spectral band
 
 ## 1 Definition
 
-Part of the electromagnetic spectrum of specific wavelengths. In remote sensing usually described by central wavelength and bandwidth. 
+Part of the electromagnetic spectrum of specific wavelengths. In [Remote Sensing](../remote_sensing) usually described by central wavelength and bandwidth. 
 
 ### Notes 
 

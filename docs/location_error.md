@@ -6,7 +6,7 @@ title: Location error
 
 ## 1 Definition
 
-Indicate the agreement between the represented location of an object and the true location. 
+Indicate the agreement between the represented [Location](../location) of an [Object](../object) and the true [Location](../location). 
 
 ### Notes 
 

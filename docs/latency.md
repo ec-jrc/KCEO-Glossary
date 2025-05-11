@@ -6,7 +6,7 @@ title: Latency
 
 ## 1 Definition
 
-Period between the end of sensing of a phenomenon to the beginning of availability of a specific product
+[Period](../period) between the end of sensing of a [Phenomenon](../phenomenon) to the beginning of availability of a specific product
 
 ### Notes 
 
