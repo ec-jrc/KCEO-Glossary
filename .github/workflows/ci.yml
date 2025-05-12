@@ -16,7 +16,7 @@ jobs:
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
       - uses: actions/setup-python@v5
         with:
-          python-version: 3.x
+          python-version: 3.11
       - run: pip install "mkdocs-material[imaging]==9.5.34"
       - run: pip install mkdocs-glightbox mkdocs-minify-plugin mkdocs-git-revision-date-localized-plugin mkdocs-git-committers-plugin-2
       - run: python scripts/remove_cross_links_in_term_definitions.py
