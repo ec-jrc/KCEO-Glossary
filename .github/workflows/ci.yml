@@ -9,36 +9,26 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      # 1. Check out the repository code - *** ADD fetch-depth ***
-      - name: Check out repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0 # Fetch all history for git revision plugins
-
-      # 2. Configure Git
+      - uses: actions/checkout@v2
+      
+      # Configure Git
       - name: Configure Git Credentials
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-
-      # 3. Set up Python
-      - name: Set up Python
-        uses: actions/setup-python@v5
+    
+      # Set up Python
+      - uses: actions/setup-python@v2
         with:
-          python-version: '3.12'
+          python-version: 3.11
 
-      # 4. Install system dependencies
-      - name: Install system dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y libcairo2-dev libpango1.0-dev libgdk-pixbuf2.0-dev pkg-config
-
-      # 5. Install Python dependencies
-      - name: Install Python dependencies
-        run: |
-          pip install --no-cache-dir --force-reinstall cairocffi
-          pip install --no-cache-dir --force-reinstall "mkdocs-material[imaging]==9.5.34"
-          pip install mkdocs-glightbox mkdocs-minify-plugin mkdocs-git-revision-date-localized-plugin mkdocs-git-committers-plugin-2
+      # Install uv and set up a virtual environment
+      - run: |
+          curl -LsSf https://astral.sh/uv/install.sh | sh
+          source $HOME/.cargo/env
+          uv venv --python 3.11
+          uv pip install "mkdocs-material[imaging]==9.5.18"
+          uv pip install mkdocs-glightbox mkdocs-minify-plugin mkdocs-git-revision-date-localized-plugin mkdocs-git-committers-plugin-2
 
       # 6. Run pre-build scripts
       - name: Run pre-build script (Remove cross-links)
@@ -47,9 +37,9 @@ jobs:
       - name: Run pre-build script (Add cross-links)
         run: python scripts/add_cross_links_in_term_definitions.py
 
-      # 7. Build and deploy MkDocs site - *** ADD env ***
+      # Deploy with mkdocs
       - name: Build and deploy MkDocs site
         env:
           # Provide the GITHUB_TOKEN to the git-committers plugin
           MKDOCS_GIT_COMMITTERS_APIKEY: ${{ secrets.GITHUB_TOKEN }}
-        run: mkdocs gh-deploy --force
+        run: uv run mkdocs gh-deploy --force
