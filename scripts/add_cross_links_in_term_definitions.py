@@ -1,5 +1,6 @@
 import os
 import re
+from files_to_exclude import files_to_exclude
 
 def extract_titles_from_md(file_path):
     """Extracts H1 titles from a markdown file, stripping common markdown formatting."""
@@ -161,17 +162,5 @@ def main(directory, exclude_files):
 
 if __name__ == "__main__":
     docs_directory = './docs'
-    # Files to be excluded from processing (directly under ./docs)
-    files_to_exclude = [
-        'changelog.md', 'impressum.md', 'index.md', 
-        'glossary.md', 'introduction.md', 'mermaid.md', 
-        'sigmajs.md', 'glossary_topology.md', 'tags.md',
-        '_template.md' 
-    ]
-    # Note: To exclude files in subdirectories like 'blog/posts', the file discovery
-    # in main() would need to use os.walk and the exclude_files list would need
-    # to handle relative paths from 'directory' or absolute paths.
-    # The current script structure primarily targets top-level markdown files in 'docs_directory'.
-
     main(docs_directory, files_to_exclude)
-    print("Cross-referencing script finished.")
+    print("Cross references removed successfully.")

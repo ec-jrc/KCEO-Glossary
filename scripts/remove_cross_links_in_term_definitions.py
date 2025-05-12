@@ -1,5 +1,6 @@
 import re
 import os
+from files_to_exclude import files_to_exclude
 
 # Change the working directory to 'docs/'
 os.chdir("./docs/")
@@ -27,20 +28,19 @@ def remove_relative_links(file_paths):
         with open(file_path, 'w', encoding='utf-8') as file:
             file.write(new_content)
 
-# List all .md files in the current directory
-all_md_files = [file for file in os.listdir() if file.endswith('.md')]
+if __name__ == "__main__":
+    # List all .md files in the current directory
+    all_md_files = [file for file in os.listdir() if file.endswith('.md')]
 
-# Define the stoplist of files to ignore
-stoplist =["changelog.md","impressum.md","index.md", "introduction.md","mermaid.md"]
+    file_paths_to_process = [file for file in all_md_files if file not in files_to_exclude]
 
-# Filter out the files in the stoplist
-file_paths_to_process = [file for file in all_md_files if file not in stoplist]
+    # Process the remaining files
+    remove_relative_links(file_paths_to_process)
 
-# Process the remaining files
-remove_relative_links(file_paths_to_process)
+    print("Cross references removed successfully.")
 
-# Example usage
-#file_paths = ["in-situ_observation.md","information.md","introduction.md","location.md","measurand.md","measurement.md","observation.md","uncertainty.md"]
-#stoplist =["changelog.md","impressum.md","index.md", "introduction.md","mermaid.md"]
-# file_paths = ["uncertainty.md"]
+    # Example usage
+    # file_paths = ["in-situ_observation.md","information.md","introduction.md","location.md","measurand.md","measurement.md","observation.md","uncertainty.md"]
+    # files_to_exclude =["changelog.md","impressum.md","index.md", "introduction.md","mermaid.md"]
+    # file_paths = ["uncertainty.md"]
 

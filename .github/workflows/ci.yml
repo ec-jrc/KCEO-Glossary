@@ -19,4 +19,6 @@ jobs:
           python-version: 3.x
       - run: pip install "mkdocs-material[imaging]==9.5.34"
       - run: pip install mkdocs-glightbox mkdocs-minify-plugin mkdocs-git-revision-date-localized-plugin mkdocs-git-committers-plugin-2
+      - run: python scripts/remove_cross_links_in_term_definitions.py
+      - run: python scripts/add_cross_links_in_term_definitions.py
       - run: mkdocs gh-deploy --force
