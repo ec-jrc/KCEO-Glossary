@@ -236,5 +236,5 @@ plugins:
       tags_file: tags.md
   - glightbox
   - blog
-  - social
+  # - social # temporarily disabled as it breaks CI
   - privacy
