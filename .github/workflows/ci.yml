@@ -36,7 +36,8 @@ jobs:
       # 5. Install Python dependencies
       - name: Install Python dependencies
         run: |
-          pip install "mkdocs-material[imaging]==9.5.34"
+          pip install --no-cache-dir --force-reinstall cairocffi
+          pip install --no-cache-dir --force-reinstall "mkdocs-material[imaging]==9.5.34"
           pip install mkdocs-glightbox mkdocs-minify-plugin mkdocs-git-revision-date-localized-plugin mkdocs-git-committers-plugin-2
 
       # 6. Run pre-build scripts
