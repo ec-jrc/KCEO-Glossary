@@ -1,24 +1,50 @@
-name: ci 
+name: ci
 on:
   push:
     branches:
       - main
 permissions:
-  contents: write
+  contents: write # Needed for mkdocs gh-deploy to push to gh-pages branch
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      # 1. Check out the repository code
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      # 2. Configure Git (optional but good practice if scripts modified files *and* committed)
       - name: Configure Git Credentials
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-      - uses: actions/setup-python@v5
+
+      # 3. Set up Python environment
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          python-version: 3.11
-      - run: pip install "mkdocs-material[imaging]==9.5.34"
-      - run: pip install mkdocs-glightbox mkdocs-minify-plugin mkdocs-git-revision-date-localized-plugin mkdocs-git-committers-plugin-2
-      - run: python scripts/remove_cross_links_in_term_definitions.py
-      - run: python scripts/add_cross_links_in_term_definitions.py
-      - run: mkdocs gh-deploy --force
+          python-version: '3.11' # Keep specific stable version
+
+      #    Install system dependencies required by cairosvg/mkdocs-material[imaging]
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcairo2-dev libpango1.0-dev libgdk-pixbuf2.0-dev pkg-config
+
+      # 5. Install Python dependencies (including MkDocs and plugins)
+      - name: Install Python dependencies
+        run: |
+          pip install "mkdocs-material[imaging]==9.5.34"
+          pip install mkdocs-glightbox mkdocs-minify-plugin mkdocs-git-revision-date-localized-plugin mkdocs-git-committers-plugin-2
+          # Add pip install for any dependencies your scripts need, if any
+
+      # 6. Run pre-build scripts
+      - name: Run pre-build script (Remove cross-links)
+        run: python scripts/remove_cross_links_in_term_definitions.py
+
+      - name: Run pre-build script (Add cross-links)
+        run: python scripts/add_cross_links_in_term_definitions.py
+
+      # 7. Build and deploy MkDocs site
+      - name: Build and deploy MkDocs site
+        run: mkdocs gh-deploy --force
