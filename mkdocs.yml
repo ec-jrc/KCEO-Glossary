@@ -12,9 +12,11 @@ nav:
         - Topology: glossary_topology.md
         - Tags: tags.md
         - Terms:
+            - Accuracy: accuracy.md
             - Ancillary data: ancillary_data.md
             - Anthroposphere: anthroposphere.md
             - Area of interest: area_of_interest.md
+            - Atmosphere: atmosphere.md
             - Auxiliary data: auxiliary_data.md
             - Band central wavelength: band_central_wavelength.md
             - Baseline: baseline.md
@@ -100,6 +102,7 @@ nav:
             - Representativeness: representativeness.md
             - Sample: sample.md
             - Sensor: sensor.md
+            - Service provider: service_provider.md
             - Spatial completeness: spatial_completeness.md
             - Spatial consistency: spatial_consistency.md
             - Spatial extent: spatial_extent.md
@@ -226,7 +229,7 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
   - git-committers:
-      repository: do-me/kceo_glossary
+      repository: ec-jrc/KCEO-Glossary
       branch: main
       enabled: !ENV [CI, false]
   - tags:
