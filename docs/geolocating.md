@@ -6,7 +6,7 @@ title: Geolocating
 
 ## 1 Definition
 
-[Geopositioning](../geopositioning) an [Object](../object) using a Physical [Sensor](../sensor) [Model](../model) or a True Replacement [Model](../model).
+Geopositioning an Object using a Physical Sensor Model or a True Replacement Model.
 
 ### Notes 
 

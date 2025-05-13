@@ -6,7 +6,7 @@ title: Thematic Resolution
 
 ## 1 Definition
 
-The level of categorical detail of [Information](../information) expressed by the number of classes.
+The level of categorical detail of Information expressed by the number of classes.
 
 ### Notes 
 

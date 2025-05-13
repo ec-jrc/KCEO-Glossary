@@ -8,10 +8,10 @@ tags:
 
 ## 1 Definition 
 
-[Observation](../observation) of a [Quantity](../quantity).
+Observation of a Quantity.
 
 ### Notes 
-- The [Process](../process) of collecting a measurement is called measuring.
+- The Process of collecting a measurement is called measuring.
 
 ### Examples 
 

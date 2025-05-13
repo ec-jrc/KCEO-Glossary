@@ -6,7 +6,7 @@ title: Vertical Levels
 
 ## 1 Definition
 
-Levels of a vertical discretization. Examples may be pressure levels in an atmospheric [Model](../model) reanalysis or height levels in a forest biomass EO product.
+Levels of a vertical discretization. Examples may be pressure levels in an atmospheric Model reanalysis or height levels in a forest biomass EO product.
 
 ### Notes 
 

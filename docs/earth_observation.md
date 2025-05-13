@@ -6,11 +6,11 @@ title: Earth Observation
 
 ## 1 Definition
 
-science domain dealing with technologies and methods of collecting and analyzing [observations](../observation) about the different [Earth spheres](../earth_spheres)
+science domain dealing with technologies and methods of collecting and analyzing observations about the different Earth spheres
 
 ### Notes 
-- Earth [Observation](../observation) (EO) can be categorised by [Location](../location) of the [Sensor](../sensor) into space-borne, air-borne, sea-borne, ground-based, underwater and underground EO.
-- Earth [Observation](../observation) (EO) includes [Remote Sensing](../remote_sensing), such as satellite imagery, as well as [in-situ observations](../in-situ_observation), e.g., with ground-based devices.
+- Earth Observation (EO) can be categorised by Location of the Sensor into space-borne, air-borne, sea-borne, ground-based, underwater and underground EO.
+- Earth Observation (EO) includes Remote Sensing, such as satellite imagery, as well as in-situ observations, e.g., with ground-based devices.
 
 ### Examples 
 

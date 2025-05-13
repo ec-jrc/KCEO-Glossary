@@ -6,7 +6,7 @@ title: Time of Year
 
 ## 1 Definition
 
-The time of the year that the variable is observed or simulated by a [Model](../model).
+The time of the year that the variable is observed or simulated by a Model.
 
 ### Notes 
 

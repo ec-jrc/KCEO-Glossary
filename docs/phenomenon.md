@@ -8,7 +8,7 @@ tags:
 
 ## 1 Definition
 
-[Entity](../entity) with at least one [Property](../property) referenced by an identifier.
+Entity with at least one Property referenced by an identifier.
 
 ### Notes 
 

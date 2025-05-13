@@ -6,7 +6,7 @@ title: Ancillary Data
 
 ## 1 Definition
 
-[Data](../data) acquired on the same platform but not obtained from the main [Sensor](../sensor) itself (usually provided as part of Level 0 [Data](../data)). They have the primary purpose to serve the processing of main instrument [Data](../data) (e.g. [Position](../position) and velocity of platform).
+Data acquired on the same platform but not obtained from the main Sensor itself (usually provided as part of Level 0 Data). They have the primary purpose to serve the processing of main instrument Data (e.g. Position and velocity of platform).
 
 ### Notes 
 
@@ -19,7 +19,7 @@ ___
 
 ## 2 Definition
 
-[Data](../data) other than instrument [measurements](../measurement), originating in the instrument itself or from the satellite, required to perform processing of the [Data](../data). They include orbit [Data](../data), attitude [Data](../data), time [Information](../information), and spacecraft engineering [Data](../data), [Calibration](../calibration) [Data](../data), [Data](../data) quality [Information](../information), and [Data](../data) from other instruments or earth system [models](../model).
+Data other than instrument measurements, originating in the instrument itself or from the satellite, required to perform processing of the Data. They include orbit Data, attitude Data, time Information, and spacecraft engineering Data, Calibration Data, Data quality Information, and Data from other instruments or earth system models.
 
 ### Notes 
 

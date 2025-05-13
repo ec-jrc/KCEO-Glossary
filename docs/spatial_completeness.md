@@ -6,12 +6,12 @@ title: Spatial completeness
 
 ## 1 Definition
 
-The presence or absence of gaps, which are missing [values](../value) in an otherwise continuous spatial [Data](../data) series.  
+The presence or absence of gaps, which are missing values in an otherwise continuous spatial Data series.  
 
 ### Notes 
 
 ### Examples 
-- surface soil moisture retrieved from microwave satellite [sensors](../sensor) may present gaps in mountainous terrains. 
+- surface soil moisture retrieved from microwave satellite sensors may present gaps in mountainous terrains. 
 
 ### Sources
 - KCEO

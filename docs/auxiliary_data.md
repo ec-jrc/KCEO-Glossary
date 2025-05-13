@@ -6,7 +6,7 @@ title: Auxiliary Data
 
 ## 1 Definition
 
-[Data](../data), which enhance processing, and utilization of main [Sensor](../sensor) [Data](../data). The auxiliary [Data](../data) are usually not captured by the same [Data](../data) collection [Process](../process) or on the same platform as the main [Sensor](../sensor) [Data](../data). Examples are e.g. meteorological [Data](../data) received from ECWMF/Met or DEMs. Offices. Auxiliary [Data](../data) help in [Data](../data) processing, but are also [Data](../data) sets in their own right.
+Data, which enhance processing, and utilization of main Sensor Data. The auxiliary Data are usually not captured by the same Data collection Process or on the same platform as the main Sensor Data. Examples are e.g. meteorological Data received from ECWMF/Met or DEMs. Offices. Auxiliary Data help in Data processing, but are also Data sets in their own right.
 
 ### Notes 
 
@@ -14,26 +14,26 @@ title: Auxiliary Data
 
 ### Sources
 - ESA/CEOS?, modified
-- ENMAP Glossary of Terms, https://www.enmap.org/[Data](../data)/doc/EnMAP_Terms.pdf, 20210624
+- ENMAP Glossary of Terms, https://www.enmap.org/Data/doc/EnMAP_Terms.pdf, 20210624
 
 ___
 
 ## 2 Definition
 
-[Data](../data) required to perform processing of [Sensor](../sensor) [Data](../data) which is not obtained from the [Sensor](../sensor) itself. Include: (a) [Data](../data) provided by the spacecraft (e.g. orbit [Position](../position) and velocity, attitude, instrument house-keeping [Data](../data), on-board time), (b) [Data](../data) not available from on-board sources. EnMAP: (a) Orbit files, attitude files, [Calibration](../calibration) [Data](../data), instrument house-keeping [Data](../data), (b) atmospheric parameters, [Reference](../reference) images.
+Data required to perform processing of Sensor Data which is not obtained from the Sensor itself. Include: (a) Data provided by the spacecraft (e.g. orbit Position and velocity, attitude, instrument house-keeping Data, on-board time), (b) Data not available from on-board sources. EnMAP: (a) Orbit files, attitude files, Calibration Data, instrument house-keeping Data, (b) atmospheric parameters, Reference images.
 
 ### Notes 
 
 ### Examples 
 
 ### Sources
-- ENMAP Glossary of Terms, https://www.enmap.org/[Data](../data)/doc/EnMAP_Terms.pdf, 20210624
+- ENMAP Glossary of Terms, https://www.enmap.org/Data/doc/EnMAP_Terms.pdf, 20210624
 
 ___
 
 ## 3 Definition
 
-The [Data](../data) required for instrument processing, which does not originate in the instrument itself or from the satellite. Some auxiliary [Data](../data) will be generated in the ground segment, whilst other [Data](../data) will be provided from external sources.
+The Data required for instrument processing, which does not originate in the instrument itself or from the satellite. Some auxiliary Data will be generated in the ground segment, whilst other Data will be provided from external sources.
 
 ### Notes 
 

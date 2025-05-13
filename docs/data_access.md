@@ -6,7 +6,7 @@ title: Data access
 
 ## 1 Definition
 
-The service to disseminate [Data](../data)
+The service to disseminate Data
 
 ### Notes 
 
