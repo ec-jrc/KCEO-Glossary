@@ -15,19 +15,22 @@ Data, which enhance processing, and utilization of main Sensor Data. The auxilia
 ### Sources
 - ESA/CEOS?, modified
 - ENMAP Glossary of Terms, https://www.enmap.org/Data/doc/EnMAP_Terms.pdf, 20210624
+- [EO Data Stewardship Glossary]([url](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf))
 
 ___
 
 ## 2 Definition
 
-Data required to perform processing of Sensor Data which is not obtained from the Sensor itself. Include: (a) Data provided by the spacecraft (e.g. orbit Position and velocity, attitude, instrument house-keeping Data, on-board time), (b) Data not available from on-board sources. EnMAP: (a) Orbit files, attitude files, Calibration Data, instrument house-keeping Data, (b) atmospheric parameters, Reference images.
+Data required to perform processing of Sensor Data which is not obtained from the Sensor itself. Include: (a) Data provided by the spacecraft (e.g. orbit Position and velocity, attitude, instrument house-keeping Data, on-board time), (b) Data not available from on-board sources. 
 
 ### Notes 
+For EnMAP, this includes (a) Orbit files, attitude files, Calibration Data, instrument house-keeping Data, (b) atmospheric parameters, Reference images.
 
 ### Examples 
 
 ### Sources
 - ENMAP Glossary of Terms, https://www.enmap.org/Data/doc/EnMAP_Terms.pdf, 20210624
+- [EO Data Stewardship Glossary]([url](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf))
 
 ___
 
