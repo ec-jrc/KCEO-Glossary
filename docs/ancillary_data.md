@@ -9,11 +9,14 @@ title: Ancillary Data
 Data acquired on the same platform but not obtained from the main Sensor itself (usually provided as part of Level 0 Data). They have the primary purpose to serve the processing of main instrument Data (e.g. Position and velocity of platform).
 
 ### Notes 
+This can be divided into data referred to as spacecraft ‘engineering’, ‘core housekeeping’ or ‘subsystem’ data obtained from other parts of the platform and includes parameters such as orbit position and velocity, attitude and its
+range of change, time, temperatures, pressures, jet firings, water dumps, internally produced magnet fields, and other environmental measurements. Ancillary refers to data that exist purely to serve the data processing.
 
 ### Examples 
 
 ### Sources
 - ESA/CEOS?, modified
+- [EO Data Stewardship Glossary]([url](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf))
 
 ___
 

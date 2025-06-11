@@ -14,3 +14,14 @@ In the context of the KCEO, an Entity (person, organization, institution, etc.) 
 
 ### Sources
 - KCEO
+
+## 2 Definition
+External person, institution or system that consumes provided services.
+
+### Notes 
+Includes Data Access or Science and Service Exploitation Platforms provided by a payload data ground segment.
+
+### Examples
+
+### Sources
+- [EO Data Stewardship Glossary]([url](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf))
