@@ -21,3 +21,14 @@ Data can be categorised into:
 (list not exhaustive!)
 ### Sources
 - KCEO
+
+## 2 Definition
+
+Scientific or technical measurements, values calculated therefrom, observations, or facts that can be represented by numbers, tables, graphs, models, text, or symbols which are used as a basis for reasoning and further calculation.
+
+### Notes
+
+### Examples
+
+### Sources
+- [WGISS Shared Collection Lifecycle Management Principles for Earth Observation Data]([url](https://ceos.org/document_management/Working_Groups/WGISS/Documents/Shared%20Collection%20Lifecycle%20Management%20Principles%20for%20Earth%20Observation%20Data_March2025.pdf))
