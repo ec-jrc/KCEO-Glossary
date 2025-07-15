@@ -24,4 +24,4 @@ Includes Data Access or Science and Service Exploitation Platforms provided by a
 ### Examples
 
 ### Sources
-- [EO Data Stewardship Glossary]([url](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf))
+- EO Data Stewardship Glossary)

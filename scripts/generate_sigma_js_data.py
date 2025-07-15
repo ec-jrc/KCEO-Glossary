@@ -1,11 +1,12 @@
 import os
 import re
-import json # For clean string escaping in JS output if needed, though direct f-string is fine here.
-from files_to_exclude import files_to_exclude # Ensure this file is in the same directory or adjust path
+import json
+import random # MOVED IMPORT TO THE TOP
+from files_to_exclude import files_to_exclude
 
 # --- Configuration ---
-DOCS_DIRECTORY = './docs'
-OUTPUT_JS_FILE = os.path.join(DOCS_DIRECTORY, 'sigma_graph_data.js')
+DOCS_DIRECTORY = './docs/terms'
+OUTPUT_JS_FILE = os.path.join("./docs/assets/sigmajs/", 'sigma_graph_data.js')
 DEFAULT_NODE_COLOR = "#5A75DB"
 DEFAULT_NODE_SIZE = 10
 DEFAULT_EDGE_COLOR = "#ccc"
@@ -82,7 +83,10 @@ def extract_definition_links(definition_text, current_file_basename_no_ext):
     for match in link_pattern.finditer(definition_text):
         link_url = match.group(1)
         if link_url.startswith('../') and not any(link_url.endswith(ext) for ext in ['.png', '.jpg', '.jpeg', '.gif', '.html']):
-            target_basename = link_url.replace('../', '').strip('/')
+            # --- CORRECTED LINE ---
+            # Split the path and take the last part, which is the filename/term
+            target_basename = link_url.split('/')[-1]
+            
             if target_basename and target_basename != current_file_basename_no_ext:
                 found_target_basenames.append(target_basename)
     return list(set(found_target_basenames)) # Unique targets
@@ -106,23 +110,23 @@ def main():
         file_full_path = os.path.join(DOCS_DIRECTORY, md_file_name)
         h1_label, basename_no_ext = get_h1_title_and_path(file_full_path)
         
-        if not h1_label: # Should have a fallback from get_h1_title_and_path
+        if not h1_label: 
             print(f"Critical: Could not determine H1/label for {md_file_name}")
-            h1_label = basename_no_ext.replace("_", " ").capitalize() # Ensure a label
+            h1_label = basename_no_ext.replace("_", " ").capitalize()
 
         node_id = sanitize_for_node_id(h1_label)
         
         filename_to_node_info[basename_no_ext] = {
             "id": node_id,
             "label": h1_label,
-            "link_path": basename_no_ext # For constructing href later
+            "link_path": basename_no_ext
         }
         
         if node_id not in nodes_data:
             nodes_data[node_id] = {
                 "id": node_id,
                 "label": h1_label,
-                "x": round(random.random() * 100, 2), # Initial random positions
+                "x": round(random.random() * 100, 2), 
                 "y": round(random.random() * 100, 2),
                 "size": DEFAULT_NODE_SIZE,
                 "color": DEFAULT_NODE_COLOR,
@@ -137,7 +141,6 @@ def main():
 
         source_node_info = filename_to_node_info.get(current_basename_no_ext)
         if not source_node_info:
-            # This should ideally not happen if Pass 1 was successful for all files
             print(f"Warning: Source node info not found for {current_basename_no_ext}. Skipping its links.")
             continue
         
@@ -153,27 +156,21 @@ def main():
             target_node_info = filename_to_node_info.get(target_basename)
             if target_node_info:
                 target_node_id = target_node_info["id"]
-                if source_node_id != target_node_id: # Avoid self-loops
+                if source_node_id != target_node_id: 
                     edges_data.add((source_node_id, target_node_id))
             else:
                 print(f"Warning: Linked target '{target_basename}' (from {md_file_name}) not found in filename_to_node_info map. Link ignored.")
 
-    # Prepare data for JavaScript output
     js_nodes = list(nodes_data.values())
     js_edges = [
         {"source": s_id, "target": t_id, "type": DEFAULT_EDGE_TYPE, "color": DEFAULT_EDGE_COLOR, "size": DEFAULT_EDGE_SIZE}
-        for s_id, t_id in sorted(list(edges_data)) # Sort for consistent output
+        for s_id, t_id in sorted(list(edges_data))
     ]
-
-    # Generate JavaScript file content
-    # Using json.dumps for robust string escaping within JS, though direct f-string is also fine for simple cases.
-    # Python's random is for initial placement; Sigma's layout will override.
-    import random # Add import at the top of the script
 
     js_output_parts = [
         "const sigmaGraphData = {",
-        f"  nodes: {json.dumps(js_nodes, indent_compile_output_to_js_file)},",
-        f"  edges: {json.dumps(js_edges, indent_compile_output_to_js_file)}",
+        f"  nodes: {json.dumps(js_nodes, indent=2)},", # Added indent for readability
+        f"  edges: {json.dumps(js_edges, indent=2)}",  # Added indent
         "};",
         "",
         "// This function will be called by sigmajs.md to load data into a Graphology instance",
@@ -184,12 +181,12 @@ def main():
         "  }",
         "  sigmaGraphData.nodes.forEach(nodeData => {",
         "    if (!graphInstance.hasNode(nodeData.id)) {",
-        "      graphInstance.addNode(nodeData.id, { ...nodeData });",
+        "      graphInstance.addNode(nodeData.id, { ...nodeData });", # Spread nodeData for attributes
         "    }",
         "  });",
         "  sigmaGraphData.edges.forEach(edgeData => {",
         "    if (!graphInstance.hasEdge(edgeData.source, edgeData.target)) {",
-        "      try { graphInstance.addEdge(edgeData.source, edgeData.target, { ...edgeData }); }",
+        "      try { graphInstance.addEdge(edgeData.source, edgeData.target, { ...edgeData }); }", # Spread edgeData
         "      catch (e) { /* Edge might exist in other direction if graph is undirected by default, or other issues */ }",
         "    }",
         "  });",
@@ -197,7 +194,6 @@ def main():
     ]
     
     final_js_output = "\n".join(js_output_parts)
-
 
     try:
         with open(OUTPUT_JS_FILE, "w", encoding="utf-8") as f:
@@ -207,11 +203,7 @@ def main():
         print(f"Error writing to {OUTPUT_JS_FILE}: {e}")
 
 if __name__ == "__main__":
-    # Ensure script is run from project root or DOCS_DIRECTORY path is correct
     if not os.path.exists(DOCS_DIRECTORY):
         print(f"Error: Docs directory '{DOCS_DIRECTORY}' not found from CWD ({os.getcwd()}). Make sure you are running the script from the project root.")
     else:
-        # This script needs random for initial node placement for Sigma.js
-        # before layout algorithms take over.
-        import random
         main()

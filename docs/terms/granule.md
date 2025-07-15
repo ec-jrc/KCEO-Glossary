@@ -9,7 +9,7 @@ The smallest aggregation of data which is independently managed (i.e. described,
 
 
 ### Notes
-- See also [product](/product.md).
+- See also product.
 
 ### Examples 
 

@@ -86,6 +86,9 @@ toc: false
 
 ## Legacy Mermaid Graph 
 
+<details style="width: fit-content">
+  <summary>Legacy Mermaid Graph</summary>
+
 ```mermaid
 flowchart TD;
     id_geopositioning(["<a href='../geopositioning'>Geopositioning</a>"]) --> id_geolocating(["<a href='../geolocating'>Geolocating</a>"]);
@@ -195,6 +198,8 @@ flowchart TD;
     id_feature(["<a href='../feature'>Feature</a>"]) --> id_geopositioning(["<a href='../geopositioning'>Geopositioning</a>"]);
     id_feature(["<a href='../feature'>Feature</a>"]) --> id_characteristic(["<a href='../characteristic'>Characteristic</a>"]);
 ```
+</details>
+
 
 <style>
 .md-container {

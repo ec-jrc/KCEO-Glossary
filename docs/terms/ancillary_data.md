@@ -16,7 +16,7 @@ range of change, time, temperatures, pressures, jet firings, water dumps, intern
 
 ### Sources
 - ESA/CEOS?, modified
-- [EO Data Stewardship Glossary]([url](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf))
+- EO Data Stewardship Glossary)
 
 ___
 

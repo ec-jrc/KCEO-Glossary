@@ -3,7 +3,7 @@ import os
 from files_to_exclude import files_to_exclude
 
 # Change the working directory to 'docs/'
-os.chdir("./docs/")
+os.chdir("./docs/terms/")
 
 # Function to remove relative links from the provided file paths
 def remove_relative_links(file_paths):

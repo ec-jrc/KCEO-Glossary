@@ -15,7 +15,7 @@ Data, which enhance processing, and utilization of main Sensor Data. The auxilia
 ### Sources
 - ESA/CEOS?, modified
 - ENMAP Glossary of Terms, https://www.enmap.org/Data/doc/EnMAP_Terms.pdf, 20210624
-- [EO Data Stewardship Glossary]([url](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf))
+- EO Data Stewardship Glossary)
 
 ___
 
@@ -30,7 +30,7 @@ For EnMAP, this includes (a) Orbit files, attitude files, Calibration Data, inst
 
 ### Sources
 - ENMAP Glossary of Terms, https://www.enmap.org/Data/doc/EnMAP_Terms.pdf, 20210624
-- [EO Data Stewardship Glossary]([url](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf))
+- EO Data Stewardship Glossary)
 
 ___
 

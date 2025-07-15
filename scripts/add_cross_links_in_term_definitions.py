@@ -161,6 +161,6 @@ def main(directory, exclude_files):
         #print(f"Processed cross-references for: {md_file_name}")
 
 if __name__ == "__main__":
-    docs_directory = './docs'
+    docs_directory = './docs/terms'
     main(docs_directory, files_to_exclude)
-    print("Cross references removed successfully.")
+    print("Cross references updated successfully.")
