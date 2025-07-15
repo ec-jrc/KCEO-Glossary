@@ -8,7 +8,7 @@ title: Coverage interval
 
 ## 1 Definition
 
-Refers to a range or a specific subset of values associated with a coverage dataset. 
+Refers to a range or a specific subset of [values](../value) associated with a coverage dataset. 
 
 ### Notes 
 

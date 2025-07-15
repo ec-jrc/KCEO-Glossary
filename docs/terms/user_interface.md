@@ -6,7 +6,7 @@ title: User Interface
 
 ## 1 Definition
 
-Set of all the components of an interactive system that provide Information and controls for the User to accomplish specific tasks with the interactive system.
+Set of all the components of an interactive system that provide [Information](../information) and controls for the [User](../user) to accomplish specific tasks with the interactive system.
 
 ### Notes 
 

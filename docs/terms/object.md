@@ -6,7 +6,7 @@ title: Object
 
 ## 1 Definition
 
-Entity with a well-defined boundary and identity that encapsulates state and behaviour.
+[Entity](../entity) with a well-defined boundary and identity that encapsulates state and behaviour.
 
 ### Notes 
 

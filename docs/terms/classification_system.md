@@ -6,7 +6,7 @@ title: Classification System
 
 ## 1 Definition
 
-The nomenclature used to classify Information into categorical thematic classes (e.g., EUNIS, MAES ecosystems, Corine Land Cover, LCCS).
+The nomenclature used to classify [Information](../information) into categorical thematic classes (e.g., EUNIS, MAES ecosystems, Corine Land Cover, LCCS).
 
 ### Notes 
 

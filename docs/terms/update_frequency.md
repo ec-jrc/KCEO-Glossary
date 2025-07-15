@@ -6,10 +6,10 @@ title: Update frequency
 
 ## 1 Definition
 
-The frequency at which the product is available to users.  
+The frequency at which the [product](../product) is available to [users](../user).  
 
 ### Notes 
-- Also known in product catalogues as dissemination frequency
+- Also known in [product](../product) [catalogues](../catalogue) as dissemination frequency
 
 ### Examples 
 

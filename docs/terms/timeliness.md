@@ -6,11 +6,11 @@ title: Timeliness
 
 ## 1 Definition
 
-The Period between the moment of requesting Information to the moment of availability of Information. 
+The [Period](../period) between the moment of requesting [Information](../information) to the moment of availability of [Information](../information). 
 
-- Near Real-Time (NRT): delivered less than 3 hours after requesting Information 
-- Slow-Time Critical (STC): delivered within 48 hours after requesting Information 
-- Non-Time Critical (NTC): typically delivered within 1 month after requesting Information 
+- Near Real-Time (NRT): delivered less than 3 hours after requesting [Information](../information) 
+- Slow-Time Critical (STC): delivered within 48 hours after requesting [Information](../information) 
+- Non-Time Critical (NTC): typically delivered within 1 month after requesting [Information](../information) 
 
 ### Notes 
 - In some context also known as delivery time.
@@ -19,4 +19,4 @@ The Period between the moment of requesting Information to the moment of availab
 ### Examples 
 
 ### Sources
-- Adapted from ESA S3 User Guide 
+- Adapted from ESA S3 [User](../user) Guide 

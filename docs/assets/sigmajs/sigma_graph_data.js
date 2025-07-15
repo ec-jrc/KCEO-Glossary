@@ -3,8 +3,8 @@ const sigmaGraphData = {
   {
     "id": "geolocating",
     "label": "Geolocating",
-    "x": 76.84,
-    "y": 95.52,
+    "x": 30.72,
+    "y": 41.45,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "geolocating"
@@ -12,8 +12,8 @@ const sigmaGraphData = {
   {
     "id": "spectral_bandwidth",
     "label": "Spectral Bandwidth",
-    "x": 50.15,
-    "y": 39.93,
+    "x": 54.09,
+    "y": 9.89,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "spectral_bandwidth"
@@ -21,8 +21,8 @@ const sigmaGraphData = {
   {
     "id": "dispose",
     "label": "Dispose",
-    "x": 47.01,
-    "y": 7.88,
+    "x": 42.38,
+    "y": 72.14,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "instrument_data"
@@ -30,8 +30,8 @@ const sigmaGraphData = {
   {
     "id": "auxiliary_data",
     "label": "Auxiliary Data",
-    "x": 9.27,
-    "y": 80.95,
+    "x": 11.56,
+    "y": 69.43,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "auxiliary_data"
@@ -39,8 +39,8 @@ const sigmaGraphData = {
   {
     "id": "position",
     "label": "Position",
-    "x": 68.29,
-    "y": 47.02,
+    "x": 73.97,
+    "y": 22.18,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "position"
@@ -48,8 +48,8 @@ const sigmaGraphData = {
   {
     "id": "product",
     "label": "Product",
-    "x": 70.7,
-    "y": 97.98,
+    "x": 5.17,
+    "y": 14.77,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "product"
@@ -57,8 +57,8 @@ const sigmaGraphData = {
   {
     "id": "process",
     "label": "Process",
-    "x": 29.86,
-    "y": 78.85,
+    "x": 94.51,
+    "y": 25.59,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "process"
@@ -66,8 +66,8 @@ const sigmaGraphData = {
   {
     "id": "reference",
     "label": "Reference",
-    "x": 32.99,
-    "y": 13.3,
+    "x": 79.4,
+    "y": 12.76,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "reference"
@@ -75,8 +75,8 @@ const sigmaGraphData = {
   {
     "id": "earth_observation_based_output",
     "label": "Earth observation based output",
-    "x": 31.53,
-    "y": 6.4,
+    "x": 87.51,
+    "y": 7.78,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "earth_observation_based_output"
@@ -84,8 +84,8 @@ const sigmaGraphData = {
   {
     "id": "entity",
     "label": "Entity",
-    "x": 39.61,
-    "y": 23.01,
+    "x": 30.05,
+    "y": 22.38,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "entity"
@@ -93,8 +93,8 @@ const sigmaGraphData = {
   {
     "id": "collection",
     "label": "Collection",
-    "x": 16.88,
-    "y": 29.54,
+    "x": 47.21,
+    "y": 98.11,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "collection"
@@ -102,8 +102,8 @@ const sigmaGraphData = {
   {
     "id": "geographic_grid",
     "label": "Geographic Grid",
-    "x": 42.47,
-    "y": 62.92,
+    "x": 22.72,
+    "y": 92.21,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "geographic_grid"
@@ -111,8 +111,8 @@ const sigmaGraphData = {
   {
     "id": "archive",
     "label": "Archive",
-    "x": 39.03,
-    "y": 2.42,
+    "x": 32.04,
+    "y": 91.58,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "archive"
@@ -120,8 +120,8 @@ const sigmaGraphData = {
   {
     "id": "steward",
     "label": "Steward",
-    "x": 3.16,
-    "y": 6.28,
+    "x": 66.99,
+    "y": 35.01,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "steward"
@@ -129,8 +129,8 @@ const sigmaGraphData = {
   {
     "id": "sample",
     "label": "Sample",
-    "x": 26.82,
-    "y": 65.36,
+    "x": 44.47,
+    "y": 77.37,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "sample"
@@ -138,8 +138,8 @@ const sigmaGraphData = {
   {
     "id": "temporal_extent",
     "label": "Temporal extent",
-    "x": 0.63,
-    "y": 61.87,
+    "x": 31.55,
+    "y": 17.84,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "temporal_extent"
@@ -147,8 +147,8 @@ const sigmaGraphData = {
   {
     "id": "thematic_uncertainty",
     "label": "Thematic Uncertainty",
-    "x": 24.21,
-    "y": 56.11,
+    "x": 90.9,
+    "y": 46.08,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "thematic_uncertainty"
@@ -156,8 +156,8 @@ const sigmaGraphData = {
   {
     "id": "cryosphere",
     "label": "Cryosphere",
-    "x": 1.52,
-    "y": 86.81,
+    "x": 35.16,
+    "y": 23.58,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "cryosphere"
@@ -165,8 +165,8 @@ const sigmaGraphData = {
   {
     "id": "spatial_reporting_unit",
     "label": "Spatial reporting unit",
-    "x": 16.38,
-    "y": 45.49,
+    "x": 48.64,
+    "y": 4.61,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "spatial_reporting_unit"
@@ -174,8 +174,8 @@ const sigmaGraphData = {
   {
     "id": "decommissioned_product",
     "label": "Decommissioned Product",
-    "x": 13.25,
-    "y": 0.93,
+    "x": 79.21,
+    "y": 92.47,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "decommissioned_product"
@@ -183,8 +183,8 @@ const sigmaGraphData = {
   {
     "id": "location",
     "label": "Location",
-    "x": 86.93,
-    "y": 66.72,
+    "x": 58.27,
+    "y": 34.1,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "location"
@@ -192,8 +192,8 @@ const sigmaGraphData = {
   {
     "id": "period",
     "label": "Period",
-    "x": 49.89,
-    "y": 10.69,
+    "x": 90.64,
+    "y": 58.11,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "period"
@@ -201,8 +201,8 @@ const sigmaGraphData = {
   {
     "id": "geospatial_data",
     "label": "Geospatial Data",
-    "x": 61.2,
-    "y": 92.85,
+    "x": 68.65,
+    "y": 58.48,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "geospatial_data"
@@ -210,8 +210,8 @@ const sigmaGraphData = {
   {
     "id": "confidence_interval",
     "label": "Confidence interval",
-    "x": 43.53,
-    "y": 58.67,
+    "x": 68.86,
+    "y": 94.58,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "confidence_interval"
@@ -219,8 +219,8 @@ const sigmaGraphData = {
   {
     "id": "granule",
     "label": "Granule",
-    "x": 86.36,
-    "y": 5.52,
+    "x": 46.7,
+    "y": 24.21,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "granule"
@@ -228,8 +228,8 @@ const sigmaGraphData = {
   {
     "id": "model",
     "label": "Model",
-    "x": 30.17,
-    "y": 50.67,
+    "x": 41.46,
+    "y": 20.35,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "model"
@@ -237,8 +237,8 @@ const sigmaGraphData = {
   {
     "id": "georectifying",
     "label": "Georectifying",
-    "x": 72.58,
-    "y": 96.46,
+    "x": 7.94,
+    "y": 73.82,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "georectifying"
@@ -246,8 +246,8 @@ const sigmaGraphData = {
   {
     "id": "policy_making",
     "label": "Policy making",
-    "x": 96.69,
-    "y": 10.6,
+    "x": 74.54,
+    "y": 98.28,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "policy_making"
@@ -255,8 +255,8 @@ const sigmaGraphData = {
   {
     "id": "uncertainty",
     "label": "Uncertainty",
-    "x": 93.13,
-    "y": 91.42,
+    "x": 45.69,
+    "y": 91.22,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "uncertainty"
@@ -264,8 +264,8 @@ const sigmaGraphData = {
   {
     "id": "climate_projection",
     "label": "Climate projection",
-    "x": 55.56,
-    "y": 69.9,
+    "x": 73.77,
+    "y": 59.54,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "climate_projection"
@@ -273,8 +273,8 @@ const sigmaGraphData = {
   {
     "id": "data_format",
     "label": "Data format",
-    "x": 5.7,
-    "y": 47.95,
+    "x": 73.23,
+    "y": 9.75,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "data_format"
@@ -282,8 +282,8 @@ const sigmaGraphData = {
   {
     "id": "classification_system_levels",
     "label": "Classification system levels",
-    "x": 6.42,
-    "y": 77.25,
+    "x": 10.41,
+    "y": 53.22,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "classification_system_levels"
@@ -291,8 +291,8 @@ const sigmaGraphData = {
   {
     "id": "geocoding",
     "label": "Geocoding",
-    "x": 89.74,
-    "y": 97.21,
+    "x": 95.0,
+    "y": 53.88,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "geocoding"
@@ -300,8 +300,8 @@ const sigmaGraphData = {
   {
     "id": "band_central_wavelength",
     "label": "Band Central Wavelength",
-    "x": 27.7,
-    "y": 23.07,
+    "x": 94.45,
+    "y": 80.46,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "band_central_wavelength"
@@ -309,8 +309,8 @@ const sigmaGraphData = {
   {
     "id": "cartographic_projection",
     "label": "Cartographic projection",
-    "x": 22.73,
-    "y": 13.45,
+    "x": 19.85,
+    "y": 74.33,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "cartographic_projection"
@@ -318,8 +318,8 @@ const sigmaGraphData = {
   {
     "id": "copernicus_service_provider",
     "label": "Copernicus Service Provider",
-    "x": 35.75,
-    "y": 18.08,
+    "x": 72.39,
+    "y": 13.99,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "copernicus_service_provider"
@@ -327,8 +327,8 @@ const sigmaGraphData = {
   {
     "id": "location_error",
     "label": "Location error",
-    "x": 7.04,
-    "y": 13.06,
+    "x": 67.61,
+    "y": 26.58,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "location_error"
@@ -336,8 +336,8 @@ const sigmaGraphData = {
   {
     "id": "version_control",
     "label": "Version Control",
-    "x": 78.74,
-    "y": 95.92,
+    "x": 52.99,
+    "y": 62.97,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "version_control"
@@ -345,8 +345,8 @@ const sigmaGraphData = {
   {
     "id": "data_access",
     "label": "Data access",
-    "x": 78.02,
-    "y": 50.87,
+    "x": 17.58,
+    "y": 64.08,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "data_access"
@@ -354,8 +354,8 @@ const sigmaGraphData = {
   {
     "id": "collection_upgrade",
     "label": "Collection Upgrade",
-    "x": 66.85,
-    "y": 57.75,
+    "x": 29.78,
+    "y": 64.19,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "collection_upgrade"
@@ -363,8 +363,8 @@ const sigmaGraphData = {
   {
     "id": "thematic_resolution",
     "label": "Thematic Resolution",
-    "x": 94.85,
-    "y": 78.85,
+    "x": 61.56,
+    "y": 33.76,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "thematic_resolution"
@@ -372,8 +372,8 @@ const sigmaGraphData = {
   {
     "id": "concepts",
     "label": "Concepts",
-    "x": 50.03,
-    "y": 2.13,
+    "x": 24.83,
+    "y": 68.06,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "concepts"
@@ -381,8 +381,8 @@ const sigmaGraphData = {
   {
     "id": "standard_uncertainty",
     "label": "Standard Uncertainty",
-    "x": 95.43,
-    "y": 87.79,
+    "x": 75.49,
+    "y": 61.7,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "standard_uncertainty"
@@ -390,8 +390,8 @@ const sigmaGraphData = {
   {
     "id": "coverage_interval",
     "label": "Coverage interval",
-    "x": 27.72,
-    "y": 79.79,
+    "x": 41.9,
+    "y": 77.3,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "coverage_interval"
@@ -399,8 +399,8 @@ const sigmaGraphData = {
   {
     "id": "path",
     "label": "Path",
-    "x": 40.04,
-    "y": 53.59,
+    "x": 90.71,
+    "y": 65.11,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "path"
@@ -408,8 +408,8 @@ const sigmaGraphData = {
   {
     "id": "source_data",
     "label": "Source Data",
-    "x": 1.61,
-    "y": 36.1,
+    "x": 32.95,
+    "y": 96.26,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "source_data"
@@ -417,8 +417,8 @@ const sigmaGraphData = {
   {
     "id": "atmosphere",
     "label": "Atmosphere",
-    "x": 51.07,
-    "y": 89.58,
+    "x": 67.56,
+    "y": 44.08,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "atmosphere"
@@ -426,8 +426,8 @@ const sigmaGraphData = {
   {
     "id": "validation",
     "label": "Validation",
-    "x": 36.48,
-    "y": 93.37,
+    "x": 22.69,
+    "y": 4.68,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "validation"
@@ -435,8 +435,8 @@ const sigmaGraphData = {
   {
     "id": "long_term_preservation",
     "label": "Long Term Preservation",
-    "x": 9.96,
-    "y": 66.43,
+    "x": 43.04,
+    "y": 76.6,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "long_term_preservation"
@@ -444,8 +444,8 @@ const sigmaGraphData = {
   {
     "id": "catalogue",
     "label": "Catalogue",
-    "x": 57.27,
-    "y": 83.36,
+    "x": 45.85,
+    "y": 29.3,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "catalogue"
@@ -453,8 +453,8 @@ const sigmaGraphData = {
   {
     "id": "minimum_mapping_unit",
     "label": "Minimum Mapping Unit",
-    "x": 40.23,
-    "y": 33.05,
+    "x": 27.23,
+    "y": 37.36,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "minimum_mapping_unit"
@@ -462,8 +462,8 @@ const sigmaGraphData = {
   {
     "id": "temporal_reporting_period",
     "label": "Temporal Reporting Period",
-    "x": 61.73,
-    "y": 22.53,
+    "x": 55.94,
+    "y": 16.29,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "temporal_reporting_period"
@@ -471,8 +471,8 @@ const sigmaGraphData = {
   {
     "id": "policy_file",
     "label": "Policy file",
-    "x": 69.23,
-    "y": 42.38,
+    "x": 31.07,
+    "y": 83.72,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "policy_file"
@@ -480,8 +480,8 @@ const sigmaGraphData = {
   {
     "id": "impact",
     "label": "impact",
-    "x": 10.83,
-    "y": 36.94,
+    "x": 44.33,
+    "y": 73.77,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "impact"
@@ -489,8 +489,8 @@ const sigmaGraphData = {
   {
     "id": "calibration",
     "label": "Calibration",
-    "x": 57.64,
-    "y": 39.47,
+    "x": 98.01,
+    "y": 5.45,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "calibration"
@@ -498,8 +498,8 @@ const sigmaGraphData = {
   {
     "id": "data",
     "label": "Data",
-    "x": 50.93,
-    "y": 14.23,
+    "x": 98.16,
+    "y": 61.44,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "data"
@@ -507,8 +507,8 @@ const sigmaGraphData = {
   {
     "id": "quantity",
     "label": "Quantity",
-    "x": 7.38,
-    "y": 55.33,
+    "x": 0.49,
+    "y": 32.78,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "quantity"
@@ -516,8 +516,8 @@ const sigmaGraphData = {
   {
     "id": "contribution_guide",
     "label": "Contribution Guide",
-    "x": 41.4,
-    "y": 77.04,
+    "x": 79.75,
+    "y": 19.22,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "contribute"
@@ -525,8 +525,8 @@ const sigmaGraphData = {
   {
     "id": "policy_milestone",
     "label": "Policy milestone",
-    "x": 87.43,
-    "y": 85.83,
+    "x": 56.43,
+    "y": 63.19,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "policy_milestone"
@@ -534,8 +534,8 @@ const sigmaGraphData = {
   {
     "id": "value",
     "label": "Value",
-    "x": 88.96,
-    "y": 29.8,
+    "x": 72.94,
+    "y": 9.22,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "value"
@@ -543,8 +543,8 @@ const sigmaGraphData = {
   {
     "id": "collection_update",
     "label": "Collection Update",
-    "x": 26.87,
-    "y": 56.32,
+    "x": 2.44,
+    "y": 85.22,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "collection_update"
@@ -552,8 +552,8 @@ const sigmaGraphData = {
   {
     "id": "laboratory_observation",
     "label": "Laboratory Observation",
-    "x": 35.66,
-    "y": 93.09,
+    "x": 59.16,
+    "y": 15.91,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "laboratory_observation"
@@ -561,8 +561,8 @@ const sigmaGraphData = {
   {
     "id": "environmental_process",
     "label": "Environmental process",
-    "x": 51.65,
-    "y": 35.7,
+    "x": 75.8,
+    "y": 75.07,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "environmental_process"
@@ -570,8 +570,8 @@ const sigmaGraphData = {
   {
     "id": "measurement_uncertainty",
     "label": "Measurement uncertainty",
-    "x": 2.12,
-    "y": 91.44,
+    "x": 97.63,
+    "y": 85.74,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "measurement_uncertainty"
@@ -579,8 +579,8 @@ const sigmaGraphData = {
   {
     "id": "temporal_revisit",
     "label": "Temporal Revisit",
-    "x": 52.87,
-    "y": 21.0,
+    "x": 9.99,
+    "y": 72.0,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "temporal_revisit"
@@ -588,8 +588,8 @@ const sigmaGraphData = {
   {
     "id": "period_identifier",
     "label": "Period identifier",
-    "x": 25.28,
-    "y": 92.18,
+    "x": 93.34,
+    "y": 59.94,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "period_identifier"
@@ -597,8 +597,8 @@ const sigmaGraphData = {
   {
     "id": "area_of_interest",
     "label": "Area of Interest",
-    "x": 96.09,
-    "y": 82.06,
+    "x": 59.44,
+    "y": 90.47,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "area_of_interest"
@@ -606,8 +606,8 @@ const sigmaGraphData = {
   {
     "id": "timeliness",
     "label": "Timeliness",
-    "x": 8.03,
-    "y": 61.72,
+    "x": 6.29,
+    "y": 21.84,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "timeliness"
@@ -615,8 +615,8 @@ const sigmaGraphData = {
   {
     "id": "hydrosphere",
     "label": "Hydrosphere",
-    "x": 6.23,
-    "y": 87.82,
+    "x": 8.06,
+    "y": 76.69,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "hydrosphere"
@@ -624,8 +624,8 @@ const sigmaGraphData = {
   {
     "id": "accuracy",
     "label": "Accuracy",
-    "x": 79.63,
-    "y": 76.32,
+    "x": 77.4,
+    "y": 6.14,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "accuracy"
@@ -633,8 +633,8 @@ const sigmaGraphData = {
   {
     "id": "traceability",
     "label": "Traceability",
-    "x": 67.52,
-    "y": 50.65,
+    "x": 2.33,
+    "y": 4.58,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "traceability"
@@ -642,8 +642,8 @@ const sigmaGraphData = {
   {
     "id": "biosphere",
     "label": "Biosphere",
-    "x": 82.43,
-    "y": 32.78,
+    "x": 83.51,
+    "y": 52.91,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "biosphere"
@@ -651,8 +651,8 @@ const sigmaGraphData = {
   {
     "id": "update_frequency",
     "label": "Update frequency",
-    "x": 57.31,
-    "y": 90.4,
+    "x": 83.48,
+    "y": 58.46,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "update_frequency"
@@ -660,8 +660,8 @@ const sigmaGraphData = {
   {
     "id": "lithosphere",
     "label": "Lithosphere",
-    "x": 19.38,
-    "y": 95.21,
+    "x": 97.81,
+    "y": 66.15,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "lithosphere"
@@ -669,8 +669,8 @@ const sigmaGraphData = {
   {
     "id": "information",
     "label": "Information",
-    "x": 73.53,
-    "y": 44.01,
+    "x": 83.65,
+    "y": 22.47,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "information"
@@ -678,8 +678,8 @@ const sigmaGraphData = {
   {
     "id": "temporal_consistency",
     "label": "Temporal Consistency",
-    "x": 41.54,
-    "y": 78.66,
+    "x": 96.39,
+    "y": 88.45,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "temporal_consistency"
@@ -687,8 +687,8 @@ const sigmaGraphData = {
   {
     "id": "metadata",
     "label": "Metadata",
-    "x": 70.51,
-    "y": 67.04,
+    "x": 96.21,
+    "y": 75.52,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "metadata"
@@ -696,8 +696,8 @@ const sigmaGraphData = {
   {
     "id": "spatial_resolution",
     "label": "Spatial resolution",
-    "x": 54.86,
-    "y": 32.62,
+    "x": 65.15,
+    "y": 86.24,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "spatial_resolution"
@@ -705,8 +705,8 @@ const sigmaGraphData = {
   {
     "id": "phenomenon",
     "label": "Phenomenon",
-    "x": 76.78,
-    "y": 63.76,
+    "x": 32.1,
+    "y": 71.66,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "phenomenon"
@@ -714,8 +714,8 @@ const sigmaGraphData = {
   {
     "id": "geolocation_information",
     "label": "Geolocation Information",
-    "x": 67.49,
-    "y": 5.18,
+    "x": 20.94,
+    "y": 69.0,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "geolocation_information"
@@ -723,8 +723,8 @@ const sigmaGraphData = {
   {
     "id": "verification",
     "label": "Verification",
-    "x": 53.11,
-    "y": 62.81,
+    "x": 41.53,
+    "y": 0.41,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "verification"
@@ -732,8 +732,8 @@ const sigmaGraphData = {
   {
     "id": "property",
     "label": "Property",
-    "x": 17.48,
-    "y": 45.74,
+    "x": 94.49,
+    "y": 22.55,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "property"
@@ -741,8 +741,8 @@ const sigmaGraphData = {
   {
     "id": "object",
     "label": "Object",
-    "x": 17.12,
-    "y": 45.41,
+    "x": 15.51,
+    "y": 69.3,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "object"
@@ -750,8 +750,8 @@ const sigmaGraphData = {
   {
     "id": "time_of_day",
     "label": "Time of Day",
-    "x": 22.59,
-    "y": 50.33,
+    "x": 7.98,
+    "y": 94.69,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "time_of_day"
@@ -759,8 +759,8 @@ const sigmaGraphData = {
   {
     "id": "obsolete_product_or_collection",
     "label": "Obsolete Product or Collection",
-    "x": 78.12,
-    "y": 41.45,
+    "x": 13.5,
+    "y": 1.24,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "obsolete_product_or_collection"
@@ -768,8 +768,8 @@ const sigmaGraphData = {
   {
     "id": "baseline",
     "label": "Baseline",
-    "x": 70.59,
-    "y": 70.71,
+    "x": 1.24,
+    "y": 11.86,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "baseline"
@@ -777,8 +777,8 @@ const sigmaGraphData = {
   {
     "id": "earth_observation",
     "label": "Earth Observation",
-    "x": 33.07,
-    "y": 86.4,
+    "x": 97.76,
+    "y": 58.87,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "earth_observation"
@@ -786,8 +786,8 @@ const sigmaGraphData = {
   {
     "id": "spectral_resolution",
     "label": "Spectral resolution",
-    "x": 56.32,
-    "y": 19.07,
+    "x": 97.04,
+    "y": 63.73,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "spectral_resolution"
@@ -795,8 +795,8 @@ const sigmaGraphData = {
   {
     "id": "near_real_time_data",
     "label": "Near Real Time Data",
-    "x": 55.93,
-    "y": 20.27,
+    "x": 56.04,
+    "y": 44.72,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "near_real_time_data"
@@ -804,8 +804,8 @@ const sigmaGraphData = {
   {
     "id": "measurand",
     "label": "Measurand",
-    "x": 24.56,
-    "y": 12.38,
+    "x": 16.41,
+    "y": 28.83,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "measurand"
@@ -813,8 +813,8 @@ const sigmaGraphData = {
   {
     "id": "latency",
     "label": "Latency",
-    "x": 62.53,
-    "y": 52.45,
+    "x": 12.37,
+    "y": 10.48,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "latency"
@@ -822,8 +822,8 @@ const sigmaGraphData = {
   {
     "id": "service_provider",
     "label": "Service provider",
-    "x": 33.41,
-    "y": 10.86,
+    "x": 20.45,
+    "y": 40.03,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "service_provider"
@@ -831,8 +831,8 @@ const sigmaGraphData = {
   {
     "id": "policy_target",
     "label": "Policy target",
-    "x": 11.88,
-    "y": 7.13,
+    "x": 42.43,
+    "y": 18.13,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "policy_target"
@@ -840,8 +840,8 @@ const sigmaGraphData = {
   {
     "id": "policy_objective",
     "label": "Policy objective",
-    "x": 4.84,
-    "y": 5.71,
+    "x": 90.12,
+    "y": 54.07,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "policy_objective"
@@ -849,8 +849,8 @@ const sigmaGraphData = {
   {
     "id": "forecast_range",
     "label": "Forecast range",
-    "x": 79.78,
-    "y": 12.16,
+    "x": 79.65,
+    "y": 71.98,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "forecast_range"
@@ -858,8 +858,8 @@ const sigmaGraphData = {
   {
     "id": "quality_indicator",
     "label": "Quality indicator",
-    "x": 27.15,
-    "y": 77.04,
+    "x": 51.91,
+    "y": 2.34,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "quality_indicator"
@@ -867,8 +867,8 @@ const sigmaGraphData = {
   {
     "id": "user_interface",
     "label": "User Interface",
-    "x": 53.18,
-    "y": 96.24,
+    "x": 56.22,
+    "y": 39.66,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "user_interface"
@@ -876,8 +876,8 @@ const sigmaGraphData = {
   {
     "id": "stability",
     "label": "Stability",
-    "x": 68.81,
-    "y": 45.8,
+    "x": 37.1,
+    "y": 24.83,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "stability"
@@ -885,8 +885,8 @@ const sigmaGraphData = {
   {
     "id": "classification_system",
     "label": "Classification System",
-    "x": 78.01,
-    "y": 19.75,
+    "x": 78.92,
+    "y": 5.16,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "classification_system"
@@ -894,8 +894,8 @@ const sigmaGraphData = {
   {
     "id": "spatial_consistency",
     "label": "Spatial consistency",
-    "x": 78.84,
-    "y": 99.05,
+    "x": 71.61,
+    "y": 93.76,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "spatial_consistency"
@@ -903,8 +903,8 @@ const sigmaGraphData = {
   {
     "id": "expanded_uncertainty",
     "label": "Expanded uncertainty",
-    "x": 33.56,
-    "y": 63.28,
+    "x": 66.31,
+    "y": 36.43,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "expanded_uncertainty"
@@ -912,8 +912,8 @@ const sigmaGraphData = {
   {
     "id": "sensor",
     "label": "Sensor",
-    "x": 26.19,
-    "y": 31.12,
+    "x": 68.58,
+    "y": 75.23,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "sensor"
@@ -921,8 +921,8 @@ const sigmaGraphData = {
   {
     "id": "minimum_mapping_width",
     "label": "Minimum Mapping Width",
-    "x": 3.5,
-    "y": 35.36,
+    "x": 31.17,
+    "y": 18.24,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "minimum_mapping_width"
@@ -930,8 +930,8 @@ const sigmaGraphData = {
   {
     "id": "backup",
     "label": "Backup",
-    "x": 82.64,
-    "y": 36.08,
+    "x": 54.14,
+    "y": 79.1,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "backup"
@@ -939,8 +939,8 @@ const sigmaGraphData = {
   {
     "id": "temporal_resolution",
     "label": "Temporal Resolution",
-    "x": 83.84,
-    "y": 97.81,
+    "x": 72.99,
+    "y": 99.96,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "temporal_resolution"
@@ -948,8 +948,8 @@ const sigmaGraphData = {
   {
     "id": "place",
     "label": "Place",
-    "x": 25.96,
-    "y": 81.34,
+    "x": 8.79,
+    "y": 14.52,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "place"
@@ -957,8 +957,8 @@ const sigmaGraphData = {
   {
     "id": "ancillary_data",
     "label": "Ancillary Data",
-    "x": 17.45,
-    "y": 22.64,
+    "x": 15.11,
+    "y": 71.93,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "ancillary_data"
@@ -966,8 +966,8 @@ const sigmaGraphData = {
   {
     "id": "observation",
     "label": "Observation",
-    "x": 18.8,
-    "y": 61.83,
+    "x": 68.72,
+    "y": 40.47,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "observation"
@@ -975,8 +975,8 @@ const sigmaGraphData = {
   {
     "id": "grid",
     "label": "Grid",
-    "x": 96.57,
-    "y": 18.39,
+    "x": 96.1,
+    "y": 49.48,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "grid"
@@ -984,8 +984,8 @@ const sigmaGraphData = {
   {
     "id": "user",
     "label": "User",
-    "x": 82.57,
-    "y": 32.67,
+    "x": 25.52,
+    "y": 22.4,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "user"
@@ -993,8 +993,8 @@ const sigmaGraphData = {
   {
     "id": "remote_sensing",
     "label": "Remote Sensing",
-    "x": 40.61,
-    "y": 38.66,
+    "x": 98.33,
+    "y": 48.0,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "remote_sensing"
@@ -1002,8 +1002,8 @@ const sigmaGraphData = {
   {
     "id": "earth_observation_product",
     "label": "Earth observation product",
-    "x": 99.7,
-    "y": 96.7,
+    "x": 23.98,
+    "y": 57.9,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "earth_observation_product"
@@ -1011,8 +1011,8 @@ const sigmaGraphData = {
   {
     "id": "trait",
     "label": "Trait",
-    "x": 67.8,
-    "y": 29.32,
+    "x": 30.81,
+    "y": 53.95,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "trait"
@@ -1020,8 +1020,8 @@ const sigmaGraphData = {
   {
     "id": "time_of_year",
     "label": "Time of Year",
-    "x": 87.09,
-    "y": 9.4,
+    "x": 98.68,
+    "y": 35.01,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "time_of_year"
@@ -1029,8 +1029,8 @@ const sigmaGraphData = {
   {
     "id": "in-situ_observation",
     "label": "In-Situ Observation",
-    "x": 7.77,
-    "y": 92.09,
+    "x": 4.07,
+    "y": 21.43,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "in-situ_observation"
@@ -1038,8 +1038,8 @@ const sigmaGraphData = {
   {
     "id": "characteristic",
     "label": "Characteristic",
-    "x": 23.46,
-    "y": 8.55,
+    "x": 30.56,
+    "y": 51.37,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "characteristic"
@@ -1047,8 +1047,8 @@ const sigmaGraphData = {
   {
     "id": "measurement",
     "label": "Measurement",
-    "x": 2.71,
-    "y": 23.21,
+    "x": 88.81,
+    "y": 90.28,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "measurement"
@@ -1056,8 +1056,8 @@ const sigmaGraphData = {
   {
     "id": "preservation",
     "label": "Preservation",
-    "x": 3.6,
-    "y": 2.0,
+    "x": 67.95,
+    "y": 0.34,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "preservation"
@@ -1065,8 +1065,8 @@ const sigmaGraphData = {
   {
     "id": "provisional_product",
     "label": "Provisional Product",
-    "x": 35.21,
-    "y": 4.58,
+    "x": 31.28,
+    "y": 57.6,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "provisional_product"
@@ -1074,8 +1074,8 @@ const sigmaGraphData = {
   {
     "id": "outcome",
     "label": "Outcome",
-    "x": 10.17,
-    "y": 27.19,
+    "x": 91.61,
+    "y": 72.08,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "outcome"
@@ -1083,8 +1083,8 @@ const sigmaGraphData = {
   {
     "id": "policy",
     "label": "Policy",
-    "x": 86.08,
-    "y": 28.62,
+    "x": 18.8,
+    "y": 27.87,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "policy"
@@ -1092,8 +1092,8 @@ const sigmaGraphData = {
   {
     "id": "geographic_identifier",
     "label": "Geographic Identifier",
-    "x": 15.61,
-    "y": 24.39,
+    "x": 6.19,
+    "y": 2.32,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "geographic_identifier"
@@ -1101,8 +1101,8 @@ const sigmaGraphData = {
   {
     "id": "earth_spheres",
     "label": "Earth spheres",
-    "x": 6.14,
-    "y": 12.67,
+    "x": 99.06,
+    "y": 33.6,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "earth_spheres"
@@ -1110,8 +1110,8 @@ const sigmaGraphData = {
   {
     "id": "deprecated_product",
     "label": "Deprecated Product",
-    "x": 8.02,
-    "y": 76.26,
+    "x": 98.41,
+    "y": 10.55,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "deprecated_product"
@@ -1119,8 +1119,8 @@ const sigmaGraphData = {
   {
     "id": "replicability",
     "label": "Replicability",
-    "x": 65.17,
-    "y": 60.79,
+    "x": 15.84,
+    "y": 28.66,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "replicability"
@@ -1128,8 +1128,8 @@ const sigmaGraphData = {
   {
     "id": "feature",
     "label": "Feature",
-    "x": 75.31,
-    "y": 72.27,
+    "x": 73.5,
+    "y": 18.72,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "feature"
@@ -1137,8 +1137,8 @@ const sigmaGraphData = {
   {
     "id": "final_product_version",
     "label": "Final Product Version",
-    "x": 92.02,
-    "y": 90.92,
+    "x": 62.85,
+    "y": 67.17,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "final_product_version"
@@ -1146,8 +1146,8 @@ const sigmaGraphData = {
   {
     "id": "spatial_extent",
     "label": "Spatial extent",
-    "x": 4.46,
-    "y": 91.41,
+    "x": 60.89,
+    "y": 48.0,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "spatial_extent"
@@ -1155,8 +1155,8 @@ const sigmaGraphData = {
   {
     "id": "policy_cycle",
     "label": "Policy cycle",
-    "x": 54.05,
-    "y": 20.4,
+    "x": 87.25,
+    "y": 42.65,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "policy_cycle"
@@ -1164,8 +1164,8 @@ const sigmaGraphData = {
   {
     "id": "data_licencing",
     "label": "Data licencing",
-    "x": 1.57,
-    "y": 14.92,
+    "x": 49.67,
+    "y": 3.64,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "data_licencing"
@@ -1173,8 +1173,8 @@ const sigmaGraphData = {
   {
     "id": "representativeness",
     "label": "Representativeness",
-    "x": 12.51,
-    "y": 81.12,
+    "x": 98.89,
+    "y": 80.87,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "representativeness"
@@ -1182,8 +1182,8 @@ const sigmaGraphData = {
   {
     "id": "reproducibility",
     "label": "Reproducibility",
-    "x": 58.37,
-    "y": 88.51,
+    "x": 64.27,
+    "y": 7.34,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "reproducibility"
@@ -1191,8 +1191,8 @@ const sigmaGraphData = {
   {
     "id": "custodian",
     "label": "Custodian",
-    "x": 18.48,
-    "y": 95.88,
+    "x": 28.87,
+    "y": 98.78,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "custodian"
@@ -1200,8 +1200,8 @@ const sigmaGraphData = {
   {
     "id": "geosphere",
     "label": "Geosphere",
-    "x": 95.55,
-    "y": 80.65,
+    "x": 17.45,
+    "y": 28.61,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "geosphere"
@@ -1209,8 +1209,8 @@ const sigmaGraphData = {
   {
     "id": "cell",
     "label": "Cell",
-    "x": 82.36,
-    "y": 20.14,
+    "x": 81.2,
+    "y": 79.28,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "cell"
@@ -1218,8 +1218,8 @@ const sigmaGraphData = {
   {
     "id": "geographic_coordinate_reference_system",
     "label": "Geographic Coordinate Reference System",
-    "x": 19.44,
-    "y": 88.75,
+    "x": 48.53,
+    "y": 8.92,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "geographic_coordinate_reference_system"
@@ -1227,8 +1227,8 @@ const sigmaGraphData = {
   {
     "id": "vertical_levels",
     "label": "Vertical Levels",
-    "x": 88.82,
-    "y": 83.6,
+    "x": 85.53,
+    "y": 63.43,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "vertical_levels"
@@ -1236,8 +1236,8 @@ const sigmaGraphData = {
   {
     "id": "anthroposphere",
     "label": "Anthroposphere",
-    "x": 82.51,
-    "y": 73.68,
+    "x": 18.42,
+    "y": 21.69,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "anthroposphere"
@@ -1245,8 +1245,8 @@ const sigmaGraphData = {
   {
     "id": "dwell_time",
     "label": "Dwell time",
-    "x": 58.72,
-    "y": 78.71,
+    "x": 36.36,
+    "y": 17.16,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "dwell_time"
@@ -1254,8 +1254,8 @@ const sigmaGraphData = {
   {
     "id": "duration",
     "label": "Duration",
-    "x": 36.24,
-    "y": 10.56,
+    "x": 11.2,
+    "y": 24.96,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "duration"
@@ -1263,8 +1263,8 @@ const sigmaGraphData = {
   {
     "id": "lead_time",
     "label": "Lead time",
-    "x": 78.63,
-    "y": 18.21,
+    "x": 8.8,
+    "y": 89.84,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "lead_time"
@@ -1272,8 +1272,8 @@ const sigmaGraphData = {
   {
     "id": "eo_space_data",
     "label": "EO Space Data",
-    "x": 80.18,
-    "y": 42.6,
+    "x": 15.77,
+    "y": 47.1,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "eo_space_data"
@@ -1281,8 +1281,8 @@ const sigmaGraphData = {
   {
     "id": "spatial_completeness",
     "label": "Spatial completeness",
-    "x": 32.84,
-    "y": 13.96,
+    "x": 43.38,
+    "y": 67.85,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "spatial_completeness"
@@ -1290,8 +1290,8 @@ const sigmaGraphData = {
   {
     "id": "derivative_product",
     "label": "Derivative Product",
-    "x": 29.16,
-    "y": 53.24,
+    "x": 72.88,
+    "y": 53.06,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "derivative_product"
@@ -1299,8 +1299,8 @@ const sigmaGraphData = {
   {
     "id": "geopositioning",
     "label": "Geopositioning",
-    "x": 13.34,
-    "y": 99.13,
+    "x": 92.84,
+    "y": 97.54,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "geopositioning"
@@ -1308,8 +1308,8 @@ const sigmaGraphData = {
   {
     "id": "spectral_band",
     "label": "Spectral band",
-    "x": 63.96,
-    "y": 35.4,
+    "x": 7.3,
+    "y": 10.98,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "spectral_band"
@@ -1317,8 +1317,8 @@ const sigmaGraphData = {
   {
     "id": "geographic_data",
     "label": "Geographic Data",
-    "x": 6.67,
-    "y": 90.76,
+    "x": 66.53,
+    "y": 19.77,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "geographic_data"
@@ -1326,8 +1326,8 @@ const sigmaGraphData = {
   {
     "id": "business_continuity",
     "label": "Business Continuity",
-    "x": 37.65,
-    "y": 3.71,
+    "x": 81.73,
+    "y": 0.67,
     "size": 10,
     "color": "#5A75DB",
     "link_path": "business_continuity"
@@ -2765,13 +2765,6 @@ const sigmaGraphData = {
   {
     "source": "reproducibility",
     "target": "data",
-    "type": "arrow",
-    "color": "#ccc",
-    "size": 1
-  },
-  {
-    "source": "sample",
-    "target": "entity",
     "type": "arrow",
     "color": "#ccc",
     "size": 1

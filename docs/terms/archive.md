@@ -7,10 +7,10 @@ title: Archive
 
 ## 1 Definition
 
-Stores data products, guaranteeing their preservation for future use
+Stores [data](../data) [products](../product), guaranteeing their [preservation](../preservation) for future use
 
 ### Notes
-- This function includes all operations to identify, store and retrieve the data and ensure their integrity.
+- This function includes all operations to identify, store and retrieve the [data](../data) and ensure their integrity.
 
 ### Examples 
 

@@ -6,7 +6,7 @@ title: Classification system levels
 
 ## 1 Definition
 
-The levels in a hierarchical Classification System. 
+The levels in a hierarchical [Classification System](../classification_system). 
 
 ### Notes 
 

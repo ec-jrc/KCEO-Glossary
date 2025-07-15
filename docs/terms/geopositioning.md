@@ -6,7 +6,7 @@ title: Geopositioning
 
 ## 1 Definition
 
-Determination of the geographic Position of a point (0D) or linear (1D) Feature.
+Determination of the geographic [Position](../position) of a point (0D) or linear (1D) [Feature](../feature).
 
 ### Notes 
 - Modified from: ISO 19130-1:2018, 3.36

@@ -7,7 +7,7 @@ title: Collection Upgrade
 
 ## 1 Definition
 
-A new and improved major version of all products within a collection due to comprehensive reprocessing.
+A new and improved major version of all [products](../product) within a [collection](../collection) due to comprehensive reprocessing.
 
 ### Notes
 

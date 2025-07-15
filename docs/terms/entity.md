@@ -27,4 +27,4 @@ A government or business organization that is formed to conduct business or repr
 CEOS Entities include Working Groups, Virtual Constellations, etc.
 
 ### Sources
-- WGISS Shared Collection Lifecycle Management Principles for Earth Observation Data)
+- WGISS Shared [Collection](../collection) Lifecycle Management Principles for [Earth Observation](../earth_observation) [Data](../data))

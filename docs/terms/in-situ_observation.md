@@ -8,11 +8,11 @@ tags:
 
 ## 1 Definition 
 
-Observations performed in the same Place where a Phenomenon occurs, normally without isolating it from other systems (its environment) or altering its pre-Observation state
+[Observations](../observation) performed in the same [Place](../place) where a [Phenomenon](../phenomenon) occurs, normally without isolating it from other systems (its environment) or altering its pre-[Observation](../observation) state
 
 ### Notes 
-- The main Characteristic of such observations is that distance has no or only negligible (within Uncertainty) influence on the Value of the Property observed. In-situ observations therefore often require either direct physical contact or small distances between a Sensor and the observed Phenomenon. 
-- Observations not fulfilling these conditions are considered Remote Sensing
+- The main [Characteristic](../characteristic) of such [observations](../observation) is that distance has no or only negligible (within [Uncertainty](../uncertainty)) influence on the [Value](../value) of the [Property](../property) observed. In-situ [observations](../observation) therefore often require either direct physical contact or small distances between a [Sensor](../sensor) and the observed [Phenomenon](../phenomenon). 
+- [Observations](../observation) not fulfilling these conditions are considered [Remote Sensing](../remote_sensing)
 
 ### Examples 
 

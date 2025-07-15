@@ -6,10 +6,10 @@ title: Geospatial Data
 
 ## 1 Definition
 
-Consisting of, derived from, or relating to Data that is directly linked to specific geographical locations.
+Consisting of, derived from, or relating to [Data](../data) that is directly linked to specific geographical [locations](../location).
 
 ### Examples 
 
 ### Sources
 - https://www.merriam-webster.com/dictionary/geospatial
-- https://isotc211.geolexica.org/Concepts/202/, accessed 20221010
+- https://isotc211.geolexica.org/[Concepts](../concepts)/202/, accessed 20221010

@@ -6,7 +6,7 @@ title: Lead time
 
 ## 1 Definition
 
-Minimum time of interval between an Observation being tasked and being performed
+Minimum time of interval between an [Observation](../observation) being tasked and being performed
 
 ### Notes 
 

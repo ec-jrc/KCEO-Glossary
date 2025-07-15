@@ -7,7 +7,7 @@ title: Deprecated Product
 
 ## 1 Definition
 
-Products and collections that have been superseded by a version and are still available, but whose use is discouraged since they will be decommissioned in the future.
+[Products](../product) and [collections](../collection) that have been superseded by a version and are still available, but whose use is discouraged since they will be decommissioned in the future.
 
 ### Notes
 

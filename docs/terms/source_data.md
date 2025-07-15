@@ -7,7 +7,7 @@ title: Source Data
 
 ## 1 Definition
 
-Data required for production of an EO Collection (e.g., unenhanced satellite mission data) as well as further processed Level-1 data (precision geometrically and radiometrically corrected radiance at the sensor), or any other pre-processed format that suppliers are providing access to that meets program requirements.
+[Data](../data) required for production of an EO [Collection](../collection) (e.g., unenhanced satellite mission [data](../data)) as well as further processed Level-1 [data](../data) (precision geometrically and radiometrically corrected radiance at the [sensor](../sensor)), or any other pre-processed format that suppliers are providing access to that meets program requirements.
 
 ### Notes
 

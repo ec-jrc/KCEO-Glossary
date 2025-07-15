@@ -6,7 +6,7 @@ title: Duration
 
 ## 1 Definition
 
-Non-negative interval Quantity of time equal to the difference between the final and initial instants of a time.
+Non-negative interval [Quantity](../quantity) of time equal to the difference between the final and initial instants of a time.
 
 ### Notes 
 - The duration is one of the base quantities in the International System of Quantities (ISQ) on which the International System of Units (SI) is based. The term “time” instead of “duration” is often used in this context and also for an infinitesimal duration.

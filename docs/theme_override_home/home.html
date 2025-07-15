@@ -435,7 +435,7 @@
             termSearchSelect.style.display = 'block';
             filteredOptions.forEach(option => {
                 const optionElement = document.createElement('option');
-                const url = `${termSearchOptions[option]}`;
+                const url = `terms/${termSearchOptions[option]}`;
                 optionElement.value = url;
                 optionElement.textContent = option;
                 termSearchSelect.appendChild(optionElement);

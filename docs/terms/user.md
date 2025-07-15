@@ -6,7 +6,7 @@ title: User
 
 ## 1 Definition
 
-In the context of the KCEO, an Entity (person, organization, institution, etc.) that is requesting Data or Information with certain characteristics described by needs and/or requirements.
+In the context of the KCEO, an [Entity](../entity) (person, organization, institution, etc.) that is requesting [Data](../data) or [Information](../information) with certain [characteristics](../characteristic) described by needs and/or requirements.
 
 ### Notes 
 
@@ -19,9 +19,9 @@ In the context of the KCEO, an Entity (person, organization, institution, etc.) 
 External person, institution or system that consumes provided services.
 
 ### Notes 
-Includes Data Access or Science and Service Exploitation Platforms provided by a payload data ground segment.
+Includes [Data Access](../data_access) or Science and Service Exploitation Platforms provided by a payload [data](../data) ground segment.
 
 ### Examples
 
 ### Sources
-- EO Data Stewardship Glossary)
+- EO [Data](../data) Stewardship Glossary)

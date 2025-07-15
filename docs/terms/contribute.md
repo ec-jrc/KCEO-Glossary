@@ -10,7 +10,7 @@ The KCEO Glossary is built from the EO community for the EO community. Your feed
 - Avoid circle definitions at all cost 
 - Multiple different definitions are allowed, but need to be separated 
 - The files need to follow a certain structure to allow for proper parsing and tools to work (e.g. graph creation)
-- We use tags for dicussion status and term classes (base, core, controversial, high-impact)
+- We use tags for dicussion status and term classes (base, core, controversial, high-[impact](../impact))
 
 ## Tag System
 We currently use the following tag system for: 
@@ -26,7 +26,7 @@ We currently use the following tag system for:
     - base term
     - core term
     - controversial term
-    - high-impact term
+    - high-[impact](../impact) term
 
 ## Editing Terms 
 Editing existing terms is very simple. On each site in the glossary you will find a tiny edit icon on the top right, just next to the pages heading. If you click it you'll go directly to editing mode. Make the changes and create a PR.
@@ -70,7 +70,7 @@ Definition_goes_here.
 
 ### Sources 
 - KCEO (no link included, so no brackets)
-- [Website](https://en.wikipedia.org/wiki/Thai_script) ( if you have web references, just add the term goes into square [] brackets and the url into () normal brackets
+- [Website](https://en.wikipedia.org/wiki/Thai_script) ( if you have web [references](../reference), just add the term goes into square [] brackets and the url into () normal brackets
 
 in case that there is more than one definition, just add three underscores to separate the definition, rest remains identical 
 
@@ -92,7 +92,7 @@ Second_definition_goes_here.
 
 ### Sources 
 - KCEO (no link included, so no brackets)
-- [Website](https://en.wikipedia.org/wiki/Thai_script) ( if you have web references, just add the term goes into square [] brackets and the url into () normal brackets
+- [Website](https://en.wikipedia.org/wiki/Thai_script) ( if you have web [references](../reference), just add the term goes into square [] brackets and the url into () normal brackets
 ```
 
 ---

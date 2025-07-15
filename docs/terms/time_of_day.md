@@ -6,11 +6,11 @@ title: Time of Day
 
 ## 1 Definition
 
-The time of the day that the variable or parameter is observed or simulated by a Model.
+The time of the day that the variable or parameter is observed or simulated by a [Model](../model).
 
 ### Notes 
 
-- In Remote Sensing it is also known as time of overpass.
+- In [Remote Sensing](../remote_sensing) it is also known as time of overpass.
 
 ### Examples 
 

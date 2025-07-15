@@ -6,7 +6,7 @@ title: Geographic Identifier
 
 ## 1 Definition
 
-Spatial Reference in the form of a label or code that identifies a Location.
+Spatial [Reference](../reference) in the form of a label or code that identifies a [Location](../location).
 
 ### Examples 
 - “Spain” is an example of a label (country name); “SW1-3AD” is an example of a code (postcode).

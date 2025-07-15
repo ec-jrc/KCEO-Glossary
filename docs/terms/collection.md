@@ -7,7 +7,7 @@ title: Collection
 
 ## 1 Definition
 
-A group of products that have been processed using a consistent radiometric calibration, geometric registration base, data / metadata format, and version of processing algorithms.
+A group of [products](../product) that have been processed using a consistent radiometric [calibration](../calibration), geometric registration base, [data](../data) / [metadata](../metadata) format, and version of processing algorithms.
 
 ### Notes
 

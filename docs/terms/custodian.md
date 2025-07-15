@@ -7,10 +7,10 @@ title: Custodian
 
 ## 1 Definition
 
-Entity responsible for the safe custody, transport, storage of the data and implementation of business rules.
+[Entity](../entity) responsible for the safe custody, transport, storage of the [data](../data) and implementation of business rules.
 
 ### Notes
-- See also Steward
+- See also [Steward](../steward)
 
 ### Examples 
 

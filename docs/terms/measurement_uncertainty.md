@@ -6,7 +6,7 @@ title: Measurement uncertainty
 
 ## 1 Definition
 
-Uncertainty associated with the method of Measurement. 
+[Uncertainty](../uncertainty) associated with the method of [Measurement](../measurement). 
 
 ### Notes 
 

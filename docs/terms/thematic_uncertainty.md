@@ -6,11 +6,11 @@ title: Thematic Uncertainty
 
 ## 1 Definition
 
-Uncertainty associated with the method of classification.
+[Uncertainty](../uncertainty) associated with the method of classification.
 
 ### Notes 
 - Typically, it is computed from the error matrix.
-- For a review of classification Uncertainty metrics, consult Ye et al. 2018.
+- For a review of classification [Uncertainty](../uncertainty) metrics, consult Ye et al. 2018.
 
 ### Examples 
 

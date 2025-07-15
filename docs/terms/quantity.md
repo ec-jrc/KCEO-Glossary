@@ -8,7 +8,7 @@ tags:
 
 ## 1 Definition
 
-Property having a magnitude that can be expressed as a number from a continuous and contiguous range and a Reference. 
+[Property](../property) having a magnitude that can be expressed as a number from a continuous and contiguous range and a [Reference](../reference). 
 
 ### Notes 
 
@@ -21,7 +21,7 @@ ___
 
 ## 2 Definition
 
-Property whose instances can be compared by ratio or only by order.
+[Property](../property) whose instances can be compared by ratio or only by order.
 
 ### Notes 
 

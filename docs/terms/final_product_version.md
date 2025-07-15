@@ -7,10 +7,10 @@ title: Final Product Version
 
 ## 1 Definition
 
-A product that is not expected to be updated within an EO Collection. 
+A [product](../product) that is not expected to be updated within an EO [Collection](../collection). 
 
 ### Notes
-- In its production, all of the prerequisite auxiliary data were input.
+- In its production, all of the prerequisite [auxiliary data](../auxiliary_data) were input.
 
 ### Examples 
 
