@@ -6,7 +6,7 @@ title: Geolocation Information
 
 ## 1 Definition
 
-[Information](../information) used to determine geographic [Location](../location).
+Information used to determine geographic Location.
 
 ### Notes 
 

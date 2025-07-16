@@ -4,15 +4,15 @@ title: Remote Sensing
 
 # Remote Sensing 
 
-**Synonyms**: Remote [Observation](../observation)
+**Synonyms**: Remote Observation
 
 ## 1 Definition
 
-type of [Observation](../observation) performed at a significant distance from a [Phenomenon](../phenomenon).
+type of Observation performed at a significant distance from a Phenomenon.
 
 ### Notes 
-- ‘Significant’ in this context means that the distance has, or may have, a non-negligible [impact](../impact) on the [Value](../value) of the [Property](../property) observed.
-- The effect of the distance on the acquired [Data](../data) is the main distinction criterion between ‘remote’ and ‘in-situ’ [observations](../observation).
+- ‘Significant’ in this context means that the distance has, or may have, a non-negligible impact on the Value of the Property observed.
+- The effect of the distance on the acquired Data is the main distinction criterion between ‘remote’ and ‘in-situ’ observations.
 
 ### Examples 
 

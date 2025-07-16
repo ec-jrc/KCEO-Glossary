@@ -6,7 +6,7 @@ title: Policy objective
 
 ## 1 Definition
 
-Desired [Outcome](../outcome) that policymakers wish to achieve.
+Desired Outcome that policymakers wish to achieve.
 
 ### Notes 
 

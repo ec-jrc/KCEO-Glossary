@@ -7,7 +7,7 @@ title: Provisional Product
 
 ## 1 Definition
 
-[Products](../product) in a research and development phase not yet been published into a standardized [collection](../collection). 
+Products in a research and development phase not yet been published into a standardized collection. 
 
 ### Notes
 

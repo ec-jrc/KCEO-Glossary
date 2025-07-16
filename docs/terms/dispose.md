@@ -7,7 +7,7 @@ title: Dispose
 
 ## 1 Definition
 
-To permanently and irrecoverably remove all copies of [data](../data) held by an organization.
+To permanently and irrecoverably remove all copies of data held by an organization.
 
 ### Notes
 

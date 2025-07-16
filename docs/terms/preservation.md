@@ -7,11 +7,11 @@ title: Preservation
 
 ## 1 Definition
 
-[Processes](../process) and operations used to ensure [data](../data) technical and intellectual survival through time. 
+Processes and operations used to ensure data technical and intellectual survival through time. 
 
 ### Notes
-- It grants [data](../data) integrity, its discoverability and accessibility, and facilitates its (re)-use in the long term. 
-- Preservation is one of the tasks of [data](../data) curation. 
+- It grants data integrity, its discoverability and accessibility, and facilitates its (re)-use in the long term. 
+- Preservation is one of the tasks of data curation. 
 
 ### Examples 
 

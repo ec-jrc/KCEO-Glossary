@@ -7,7 +7,7 @@ title: Collection Update
 
 ## 1 Definition
 
-Minor revisions to a relatively small number of [products](../product) within a [collection](../collection) for the purpose of correcting errors and maintaining consistent quality.
+Minor revisions to a relatively small number of products within a collection for the purpose of correcting errors and maintaining consistent quality.
 
 ### Notes
 

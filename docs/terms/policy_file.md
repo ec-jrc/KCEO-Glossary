@@ -6,7 +6,7 @@ title: Policy file
 
 ## 1 Definition
 
-[Policy](../policy) documents that represent the official written [Reference](../reference) for a given [Policy](../policy). 
+Policy documents that represent the official written Reference for a given Policy. 
 
 ### Notes 
 

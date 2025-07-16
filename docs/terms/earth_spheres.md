@@ -6,16 +6,16 @@ title: Earth spheres
 
 ## 1 Definition
 
-Spheres dividing planet Earth into subsystems, which are collectives of (physical) matter sharing specific [traits](../trait)
+Spheres dividing planet Earth into subsystems, which are collectives of (physical) matter sharing specific traits
 
 ### Notes 
 
 ### Examples
-- [Atmosphere](../atmosphere)
-- [Hydrosphere](../hydrosphere)
-- [Cryosphere](../cryosphere)
-- [Biosphere](../biosphere)
-- [Lithosphere](../lithosphere)
+- Atmosphere
+- Hydrosphere
+- Cryosphere
+- Biosphere
+- Lithosphere
 - Anthroposhere
 
 ### Sources

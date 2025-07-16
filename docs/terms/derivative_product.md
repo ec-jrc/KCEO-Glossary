@@ -7,11 +7,11 @@ title: Derivative Product
 
 ## 1 Definition
 
-Additionally processed from [baseline](../baseline) or unenhanced mission [data](../data).
+Additionally processed from baseline or unenhanced mission data.
 
 ### Notes
-- Generally are either a compilation of time-series [data](../data) (e.g., all time, annual, monthly or seasonal summary [data](../data), > Level 3) or thematic versions of each individual [data](../data) tile of [baseline](../baseline) [data](../data)
-- Derived [products](../product) are citable via a Digital [Object](../object) Identifier (DOI).
+- Generally are either a compilation of time-series data (e.g., all time, annual, monthly or seasonal summary data, > Level 3) or thematic versions of each individual data tile of baseline data
+- Derived products are citable via a Digital Object Identifier (DOI).
 
 ### Examples 
 

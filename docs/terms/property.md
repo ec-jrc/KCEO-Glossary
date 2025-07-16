@@ -8,7 +8,7 @@ tags:
 
 ## 1 Definition
 
-observable [Trait](../trait)
+observable Trait
 
 ### Notes 
 

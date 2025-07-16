@@ -7,7 +7,7 @@ title: Near Real Time Data
 
 ## 1 Definition
 
-[Data](../data) that is available for use with a specified (small and application dependent) [latency](../latency), typically 3 hours for meteorological applications.
+Data that is available for use with a specified (small and application dependent) latency, typically 3 hours for meteorological applications.
 
 ### Notes
 

@@ -9,7 +9,7 @@ title: Grid
 Network composed of two or more sets of curves in which the members of each set intersect the members of the other sets in an algorithmic way.
 
 ### Notes 
-- The curves partition a space into grid [cells](../cell).
+- The curves partition a space into grid cells.
 
 ### Examples 
 

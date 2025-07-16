@@ -7,7 +7,7 @@ title: Obsolete Product or Collection
 
 ## 1 Definition
 
-[Products](../product) or [collections](../collection) which have been superseded by later versions of a [product](../product) or [collection](../collection).
+Products or collections which have been superseded by later versions of a product or collection.
 
 ### Notes
 

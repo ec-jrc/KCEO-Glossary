@@ -7,10 +7,10 @@ title: Steward
 
 ## 1 Definition
 
-[Entity](../entity) responsible for the safe custody, transport, storage of the [data](../data) and implementation of business rules.
+Entity responsible for the safe custody, transport, storage of the data and implementation of business rules.
 
 ### Notes
-- See also [Custodian](../custodian)
+- See also Custodian
 
 ### Examples 
 

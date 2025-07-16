@@ -6,7 +6,7 @@ title: Forecast range
 
 ## 1 Definition
 
-The forecast [Period](../period).
+The forecast Period.
 
 ### Notes 
 

@@ -7,10 +7,10 @@ title: Decommissioned Product
 
 ## 1 Definition
 
-[Products](../product) and [collections](../collection) that have been superseded by new versions and are no longer available. 
+Products and collections that have been superseded by new versions and are no longer available. 
 
 ### Notes
-- Decommissioned [products](../product) are no longer supported i.e corrections will not be made, new [data](../data) will not be added, support is not available.
+- Decommissioned products are no longer supported i.e corrections will not be made, new data will not be added, support is not available.
 
 ### Examples 
 

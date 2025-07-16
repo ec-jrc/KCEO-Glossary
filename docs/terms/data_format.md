@@ -6,7 +6,7 @@ title: Data format
 
 ## 1 Definition
 
-Structured [Data](../data) that is machine readable and can be automatically read and processed by a computer, such as HDF, NetCDF, CSV, JSON, XML, etc.
+Structured Data that is machine readable and can be automatically read and processed by a computer, such as HDF, NetCDF, CSV, JSON, XML, etc.
 
 ### Notes 
 

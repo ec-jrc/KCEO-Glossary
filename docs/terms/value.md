@@ -12,9 +12,9 @@ element of a type domain
 
 ### Notes 
 
-- A value may consider a possible state of an [Object](../object) within a class or type (domain).
+- A value may consider a possible state of an Object within a class or type (domain).
 
-- A [Data](../data) value is an instance of a [Data](../data) type, a value without identity
+- A Data value is an instance of a Data type, a value without identity
 
 ### Examples 
 

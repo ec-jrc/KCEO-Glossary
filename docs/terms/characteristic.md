@@ -8,7 +8,7 @@ tags:
 
 ## 1 Definition
 
-Distinguishing [Feature](../feature)
+Distinguishing Feature
 
 ### Notes 
 - A characteristic can be inherent or assigned.
@@ -30,10 +30,10 @@ ___
 
 ## 2 Definition
 
-Abstraction of a [Property](../property) of an [Object](../object) or of a set of [objects](../object).
+Abstraction of a Property of an Object or of a set of objects.
 
 ### Notes 
-- Characteristics are used for describing [Concepts](../concepts).
+- Characteristics are used for describing Concepts.
 
 ### Examples 
 

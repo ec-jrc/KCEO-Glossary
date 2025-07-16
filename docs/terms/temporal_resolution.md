@@ -6,11 +6,11 @@ title: Temporal Resolution
 
 ## 1 Definition
 
-The [Observation](../observation) or [Model](../model) output representing regular intervals and specifying the length of the interval that determines the smallest event or [Process](../process) that can be resolved (e.g., the [Period](../period) between [observations](../observation), the time steps in a [Model](../model)).
+The Observation or Model output representing regular intervals and specifying the length of the interval that determines the smallest event or Process that can be resolved (e.g., the Period between observations, the time steps in a Model).
 
 ### Notes 
 
-- WIGOS 2019 distinguishes between sampling time [Period](../period), as the [Period](../period) over which a [Measurement](../measurement) is taken, and temporal sampling interval as the time [Period](../period) between the beginning of consecutive sampling [periods](../period). Temporal resolution in this Glossary is equivalent to sampling time [Period](../period) as used by WIGOS.
+- WIGOS 2019 distinguishes between sampling time Period, as the Period over which a Measurement is taken, and temporal sampling interval as the time Period between the beginning of consecutive sampling periods. Temporal resolution in this Glossary is equivalent to sampling time Period as used by WIGOS.
 
 ### Examples 
 
