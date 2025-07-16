@@ -1,7 +1,16 @@
 ---
 title: Dependency Graph
 toc: false
+hide:
+  - toc
 ---
+
+<style>
+#graphcontainer {
+    height: 800px;
+    width: 100%;
+}
+</style>
 
 <script type="importmap">
       {
