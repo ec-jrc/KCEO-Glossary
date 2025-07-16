@@ -13,7 +13,7 @@ toc: false
       } 
 </script>
 
-<div id="graphcontainer" style="width: 800px; height: 600px; background: white; border: 1px solid #ccc;"></div>
+<div id="graphcontainer"></div>
 
 <script type="module">
 import * as sigma from 'sigma';
@@ -22,7 +22,7 @@ import 'graphologyLibrary'; // has no exports, import all
 // The main function to set up the graph
 async function setupGraph() {
   const container = document.getElementById("graphcontainer");
-  const graphDataUrl = 'https://raw.githubusercontent.com/do-me/Test/refs/heads/main/sigmatest3.json';
+  const graphDataUrl = 'https://ec-jrc.github.io/KCEO-Glossary/assets/sigmajs/sigma_graph_data.json'; // for testing locally use e.g. 'https://raw.githubusercontent.com/do-me/Test/refs/heads/main/sigmatest3.json as localhost relative paths didn't work for some reason
 
   try {
     // 1. Fetch the external data file

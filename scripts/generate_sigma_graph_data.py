@@ -1,17 +1,24 @@
 import os
 import re
 import json
-import random # MOVED IMPORT TO THE TOP
-from files_to_exclude import files_to_exclude
+import random
 
 # --- Configuration ---
 DOCS_DIRECTORY = './docs/terms'
-OUTPUT_JS_FILE = os.path.join("./docs/assets/sigmajs/", 'sigma_graph_data.js')
+OUTPUT_JSON_FILE = os.path.join("./docs/assets/sigmajs/", 'sigma_graph_data.json') # Changed output file extension
 DEFAULT_NODE_COLOR = "#5A75DB"
 DEFAULT_NODE_SIZE = 10
 DEFAULT_EDGE_COLOR = "#ccc"
 DEFAULT_EDGE_TYPE = "arrow"
 DEFAULT_EDGE_SIZE = 1
+
+# Dummy files_to_exclude for standalone execution, replace with actual import if available
+try:
+    from files_to_exclude import files_to_exclude
+except ImportError:
+    files_to_exclude = []
+    print("Warning: 'files_to_exclude.py' not found. Running without file exclusions.")
+
 
 # --- Helper Functions ---
 
@@ -83,8 +90,6 @@ def extract_definition_links(definition_text, current_file_basename_no_ext):
     for match in link_pattern.finditer(definition_text):
         link_url = match.group(1)
         if link_url.startswith('../') and not any(link_url.endswith(ext) for ext in ['.png', '.jpg', '.jpeg', '.gif', '.html']):
-            # --- CORRECTED LINE ---
-            # Split the path and take the last part, which is the filename/term
             target_basename = link_url.split('/')[-1]
             
             if target_basename and target_basename != current_file_basename_no_ext:
@@ -161,46 +166,23 @@ def main():
             else:
                 print(f"Warning: Linked target '{target_basename}' (from {md_file_name}) not found in filename_to_node_info map. Link ignored.")
 
-    js_nodes = list(nodes_data.values())
-    js_edges = [
+    json_nodes = list(nodes_data.values())
+    json_edges = [
         {"source": s_id, "target": t_id, "type": DEFAULT_EDGE_TYPE, "color": DEFAULT_EDGE_COLOR, "size": DEFAULT_EDGE_SIZE}
         for s_id, t_id in sorted(list(edges_data))
     ]
 
-    js_output_parts = [
-        "const sigmaGraphData = {",
-        f"  nodes: {json.dumps(js_nodes, indent=2)},", # Added indent for readability
-        f"  edges: {json.dumps(js_edges, indent=2)}",  # Added indent
-        "};",
-        "",
-        "// This function will be called by sigmajs.md to load data into a Graphology instance",
-        "function loadSigmaGraph(graphInstance) {",
-        "  if (!graphInstance) {",
-        "    console.error('Graphology instance not provided to loadSigmaGraph.');",
-        "    return;",
-        "  }",
-        "  sigmaGraphData.nodes.forEach(nodeData => {",
-        "    if (!graphInstance.hasNode(nodeData.id)) {",
-        "      graphInstance.addNode(nodeData.id, { ...nodeData });", # Spread nodeData for attributes
-        "    }",
-        "  });",
-        "  sigmaGraphData.edges.forEach(edgeData => {",
-        "    if (!graphInstance.hasEdge(edgeData.source, edgeData.target)) {",
-        "      try { graphInstance.addEdge(edgeData.source, edgeData.target, { ...edgeData }); }", # Spread edgeData
-        "      catch (e) { /* Edge might exist in other direction if graph is undirected by default, or other issues */ }",
-        "    }",
-        "  });",
-        "}"
-    ]
-    
-    final_js_output = "\n".join(js_output_parts)
+    final_json_output = {
+        "nodes": json_nodes,
+        "edges": json_edges
+    }
 
     try:
-        with open(OUTPUT_JS_FILE, "w", encoding="utf-8") as f:
-            f.write(final_js_output)
-        print(f"\nSuccessfully generated {OUTPUT_JS_FILE} with {len(js_nodes)} nodes and {len(js_edges)} edges.")
+        with open(OUTPUT_JSON_FILE, "w", encoding="utf-8") as f:
+            json.dump(final_json_output, f, indent=2) # Use json.dump to write dict directly
+        print(f"\nSuccessfully generated {OUTPUT_JSON_FILE} with {len(json_nodes)} nodes and {len(json_edges)} edges.")
     except Exception as e:
-        print(f"Error writing to {OUTPUT_JS_FILE}: {e}")
+        print(f"Error writing to {OUTPUT_JSON_FILE}: {e}")
 
 if __name__ == "__main__":
     if not os.path.exists(DOCS_DIRECTORY):

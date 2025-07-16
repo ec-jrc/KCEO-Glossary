@@ -37,6 +37,9 @@ jobs:
       - name: Run pre-build script (Add cross-links)
         run: python scripts/add_cross_links_in_term_definitions.py
 
+      - name: Run pre-build script (Build sigma graph data)
+        run: python scripts/generate_sigma_graph_data.py
+
       # Deploy with mkdocs
       - name: Build and deploy MkDocs site
         env:
