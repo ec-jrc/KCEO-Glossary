@@ -5,11 +5,69 @@ hide:
   - toc
 ---
 
+
 <style>
 #graphcontainer {
     height: 800px;
     width: 100%;
 }
+
+.graph-controls {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.graph-controls button, .graph-controls input {
+  height: 40px !important;
+  padding: 8px 12px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Tooltip styles */
+#sigma-tooltip {
+    position: absolute;
+    display: none;
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    pointer-events: none;
+    z-index: 1000;
+    max-width: 500px; /* Increased max-width for better display of article content */
+    /*max-height: 400px;  Limit height */
+    overflow-y: auto; /* Add scrollbar if content exceeds max-height */
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* You might want to reset some inner article styles if they clash */
+#sigma-tooltip h1, #sigma-tooltip h2, #sigma-tooltip h3 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-size: 1.2em; /* Smaller headings in tooltip */
+}
+#sigma-tooltip p {
+    margin: 0 0 5px 0;
+}
+
+#sigma-tooltip aside {
+    display: none;
+}
+
+.headerlink {
+    display: none;
+}
+
+.md-content__button {
+    display: none;
+}
+
+
 </style>
 
 <script type="importmap">
@@ -24,56 +82,45 @@ hide:
 
 <div id="graphcontainer"></div>
 
+<div class="graph-controls">
+  <button id="fullscreen-btn">Fullscreen</button>
+  <button id="zoom-reset-btn">Reset Zoom</button>
+
+  <input type="text" id="node-filter-input" placeholder="Filter nodes by label">
+</div>
+
 <script type="module">
 import * as sigma from 'sigma';
-import 'graphology'; // has no exports, import all
-import 'graphologyLibrary'; // has no exports, import all
-// The main function to set up the graph
+import 'graphology';
+import 'graphologyLibrary';
+
 async function setupGraph() {
   const container = document.getElementById("graphcontainer");
-  const graphDataUrl = 'https://ec-jrc.github.io/KCEO-Glossary/assets/sigmajs/sigma_graph_data.json'; // for testing locally use e.g. 'https://raw.githubusercontent.com/do-me/Test/refs/heads/main/sigmatest3.json as localhost relative paths didn't work for some reason
+  const graphDataUrl = 'https://ec-jrc.github.io/KCEO-Glossary/assets/sigmajs/sigma_graph_data.json';
+  const glossaryBaseUrl = 'https://ec-jrc.github.io/KCEO-Glossary/terms/'; 
 
   try {
-    // 1. Fetch the external data file
     const response = await fetch(graphDataUrl);
     const fileContent = await response.json();
-    console.log(fileContent)
+    console.log(fileContent);
 
-    // 2. Parse the JavaScript file content to get the data object
-    // This creates a function that, when called, executes the code from the file
-    // and returns the `sigmaGraphData` object.
-    //const getData = new Function(`${fileContent}; return sigmaGraphData;`);
     const sigmaGraphData = fileContent;
+    const graph = new graphology.Graph();
 
-
-    // 3. Create a graphology instance from the loaded data
-    const graph = new graphology.Graph()
     sigmaGraphData.nodes.forEach(node => {
-        graph.addNode(node.id, { ...node });
+      graph.addNode(node.id, { ...node });
     });
-    // The provided file has an empty edges array, but this will handle it if you add edges later
     sigmaGraphData.edges.forEach(edge => {
-        // Ensure source and target are defined for each edge
-        if (edge.source && edge.target) {
-            graph.addEdge(edge.source, edge.target, { ...edge, type: 'arrow', size: 2 });
-        }
+      if (edge.source && edge.target) {
+        graph.addEdge(edge.source, edge.target, { ...edge, type: 'arrow', size: 2 });
+      }
     });
 
-    // Initial layout (optional, but good for positioning nodes without x/y)
-    // If your nodes already have x/y coordinates as in your file, you can skip this part
-    // or use it as a starting point. Sigma.js will use the x/y attributes from the data.
-    // circular.assign(graph);
-
-    // 4. Run the ForceAtlas2 layout algorithm if you want to dynamically position nodes
-    // Your data already has x/y, so this is optional but can help untangle the graph.
-    // Infer settings from graph & assign
-    const settings = graphologyLibrary.layoutForceAtlas2.inferSettings(graph);
     graphologyLibrary.layoutForceAtlas2.assign(graph, {
       iterations: 50,
-      settings: settings
+      settings: graphologyLibrary.layoutForceAtlas2.inferSettings(graph)
     });
 
-    // 5. Instantiate sigma.js and render the graph
     const renderer = new Sigma(graph, container, {
         // We draw labels on top of the nodes:
         labelRenderer: (context, data) => {
@@ -87,15 +134,124 @@ async function setupGraph() {
         }
     });
 
+// --- Add Controls ---
+
+    document.getElementById('fullscreen-btn').addEventListener('click', () => {
+      if (container.requestFullscreen) {
+        container.requestFullscreen();
+      } else if (container.mozRequestFullScreen) {
+        container.mozRequestFullScreen();
+      } else if (container.webkitRequestFullscreen) {
+        container.webkitRequestFullscreen();
+      } else if (container.msRequestFullscreen) {
+        container.msRequestFullscreen();
+      }
+    });
+
+    document.getElementById('zoom-reset-btn').addEventListener('click', () => {
+      renderer.getCamera().animatedReset();
+    });
+
+    const filterNodes = () => {
+      const filterValue = document.getElementById('node-filter-input').value.toLowerCase();
+      graph.forEachNode(node => {
+        const label = graph.getNodeAttribute(node, 'label').toLowerCase();
+        if (filterValue && !label.includes(filterValue)) {
+          graph.setNodeAttribute(node, 'hidden', true);
+        } else {
+          graph.setNodeAttribute(node, 'hidden', false);
+        }
+      });
+      graph.forEachEdge(edge => {
+          const sourceNodeHidden = graph.getNodeAttribute(graph.getSourceNode(edge), 'hidden');
+          const targetNodeHidden = graph.getNodeAttribute(graph.getTargetNode(edge), 'hidden');
+          if (sourceNodeHidden || targetNodeHidden) {
+              graph.setEdgeAttribute(edge, 'hidden', true);
+          } else {
+              graph.setEdgeAttribute(edge, 'hidden', false);
+          }
+      });
+      renderer.refresh();
+    };
+
+    document.getElementById('node-filter-input').addEventListener('input', filterNodes);
+
+    // --- Tooltip Logic ---
+    const tooltip = document.createElement('div');
+    tooltip.id = 'sigma-tooltip';
+    document.body.appendChild(tooltip); // Append to body to simplify positioning relative to viewport
+
+    let currentTooltipTimeout;
+
+    renderer.on('enterNode', async ({ node }) => {
+        clearTimeout(currentTooltipTimeout); // Clear any pending hide timeout
+
+        const nodeData = graph.getNodeAttributes(node);
+        const nodeId = nodeData.id;
+        // Convert node ID to a URL-friendly path (lowercase, hyphens instead of spaces)
+        const glossaryPath = nodeId.toLowerCase().replace(/ /g, '-');
+        const glossaryUrl = `${glossaryBaseUrl}${glossaryPath}/`; // Assuming trailing slash for MkDocs style URLs
+
+        // Position the tooltip based on the node's screen coordinates
+        const nodePosition = renderer.getNodeDisplayData(node);
+        const containerRect = container.getBoundingClientRect(); // Get container position relative to viewport
+        const pageX = nodePosition.x + containerRect.left + window.scrollX;
+        const pageY = nodePosition.y + containerRect.top + window.scrollY;
+
+        tooltip.style.left = `${pageX + 15}px`; // Offset to the right of the node
+        tooltip.style.top = `${pageY - 15}px`; // Offset slightly above the node
+        //tooltip.innerHTML = 'Loading preview...';
+        tooltip.style.display = 'block';
+
+               currentTooltipTimeout = setTimeout(async () => {
+            try {
+                const response = await fetch(glossaryUrl);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status} for ${glossaryUrl}`);
+                }
+                const html = await response.text();
+
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(html, 'text/html');
+
+                let articleContentHtml = '<p>No article content found.</p>';
+                // Target the <article> tag
+                const articleElement = doc.querySelector('article');
+
+                if (articleElement) {
+                    // Extract the innerHTML of the article tag
+                    articleContentHtml = articleElement.innerHTML;
+                    // Optional: remove common MkDocs heading if it's redundant inside the tooltip
+                    // const firstH1 = articleElement.querySelector('h1.md-content__heading');
+                    // if (firstH1) {
+                    //     firstH1.remove(); // This removes it from the *cloned* DOM, not the original page
+                    // }
+                }
+
+                // Set the tooltip's content directly to the article's HTML
+                // You can still wrap it with the title if you want
+                tooltip.innerHTML = `${articleContentHtml}`;
+                tooltip.style.display = 'block';
+
+            } catch (error) {
+                console.error(`Failed to load glossary preview for ${nodeId} at ${glossaryUrl}:`, error);
+                tooltip.innerHTML = `<strong>${nodeData.label}</strong><p>Could not load or parse full article preview.</p>`;
+            }
+        }, 0);
+    });
+
+    renderer.on('leaveNode', () => {
+        clearTimeout(currentTooltipTimeout);
+        tooltip.style.display = 'none';
+    });
+
   } catch (error) {
     console.error("Failed to load or render graph:", error);
     container.innerHTML = "Could not load the graph data. Please check the console for errors.";
   }
 }
 
-// Run the setup function
 setupGraph();
-
 </script>
 ---
 
