@@ -5,3 +5,11 @@ tags:
 ---
 
 # Outcome
+
+## 1 Definition
+
+### Notes
+
+### Examples 
+
+### Sources

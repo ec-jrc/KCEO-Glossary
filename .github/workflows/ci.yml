@@ -35,6 +35,9 @@ jobs:
         run: python scripts/remove_cross_links_in_term_definitions.py
 
       - name: Run pre-build script (Add cross-links)
+        run: python scripts/export_glossary.py
+
+      - name: Run pre-build script (Add cross-links)
         run: python scripts/add_cross_links_in_term_definitions.py
 
       - name: Run pre-build script (Build sigma graph data)

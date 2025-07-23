@@ -8,6 +8,8 @@ title: Geospatial Data
 
 Consisting of, derived from, or relating to Data that is directly linked to specific geographical locations.
 
+### Notes
+
 ### Examples 
 
 ### Sources

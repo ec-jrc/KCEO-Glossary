@@ -4,3 +4,5 @@ files_to_exclude = [
     'sigmajs.md', 'glossary_topology.md', 'tags.md',
     '_template.md' 
 ]
+
+# this file is obsolete now but kept for reference and potential future use

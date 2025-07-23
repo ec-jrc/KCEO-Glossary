@@ -8,6 +8,8 @@ title: Geographic Identifier
 
 Spatial Reference in the form of a label or code that identifies a Location.
 
+### Notes 
+
 ### Examples 
 - “Spain” is an example of a label (country name); “SW1-3AD” is an example of a code (postcode).
 
