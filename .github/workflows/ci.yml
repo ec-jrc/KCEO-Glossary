@@ -28,7 +28,7 @@ jobs:
           source $HOME/.cargo/env
           uv venv --python 3.11
           uv pip install "mkdocs-material[imaging]==9.5.18"
-          uv pip install pandas pyarrow openpyxl mkdocs-glightbox mkdocs-minify-plugin mkdocs-git-revision-date-localized-plugin mkdocs-git-committers-plugin-2
+          uv pip install pandas mkdocs-glightbox mkdocs-minify-plugin mkdocs-git-revision-date-localized-plugin mkdocs-git-committers-plugin-2
 
       # 6. Run pre-build scripts
       - name: Run pre-build script (Remove cross-links)
@@ -38,6 +38,15 @@ jobs:
         run: |
           source .venv/bin/activate
           python scripts/export_glossary.py
+          
+      # Commit exported files back to main
+      - name: Commit and push exported glossary files
+        run: |
+          git add exports/*.xlsx exports/*.parquet
+          git diff --cached --quiet || git commit -m "chore: update glossary exports"
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Run pre-build script (Add cross-links)
         run: python scripts/add_cross_links_in_term_definitions.py
