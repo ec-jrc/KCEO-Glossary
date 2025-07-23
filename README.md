@@ -57,6 +57,8 @@ We currently use the following tag system for:
 - controversial term
 - high-impact term
 
+## Exports 
+We provide automatic exports as parquet and xlsx [here](https://github.com/ec-jrc/KCEO-Glossary/tree/main/exports). 
 
 ## To Do's:
 - Update GitHub actions to run custom scripts for cross linking, topology and dependency graph every time. Requires some careful testing. High priority.
