@@ -28,7 +28,7 @@ jobs:
           source $HOME/.cargo/env
           uv venv --python 3.11
           uv pip install "mkdocs-material[imaging]==9.5.18"
-          uv pip install mkdocs-glightbox mkdocs-minify-plugin mkdocs-git-revision-date-localized-plugin mkdocs-git-committers-plugin-2
+          uv pip install pandas mkdocs-glightbox mkdocs-minify-plugin mkdocs-git-revision-date-localized-plugin mkdocs-git-committers-plugin-2
 
       # 6. Run pre-build scripts
       - name: Run pre-build script (Remove cross-links)
