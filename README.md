@@ -59,6 +59,39 @@ We currently use the following tag system for:
 
 ## Exports 
 We provide automatic exports as parquet and xlsx [here](https://github.com/ec-jrc/KCEO-Glossary/tree/main/exports). 
+You can convenientely query the parquet exports via httpfs (range requests) and only retrieve the record or records you are interested in without having to download all terms (that might grow substantially in the future). DuckDB for instance enables an SQL-based queries and can either be run from the browser or from your terminal. To get started, follow these steps: 
+1. [Install DuckDB](https://duckdb.org/)
+2. Run e.g. the DuckDB in your terminal with `duckdb -ui`
+3. Enter the below SQL query
+
+```sql
+-- Load the httpfs extension
+INSTALL httpfs;
+LOAD httpfs;
+
+-- Query the remote Parquet file
+SELECT *
+FROM read_parquet('https://github.com/ec-jrc/KCEO-Glossary/raw/refs/heads/main/exports/parquet/terms_definition_1.parquet')
+WHERE term ilike  'climate projection';
+```
+
+<img width="1840" height="1191" alt="image" src="https://github.com/user-attachments/assets/cb8dba2a-1eb4-4227-9cd0-920e3fc7d56b" />
+
+Or check what terms include the term `Data` (case sensitive) with: 
+
+```sql
+-- Load the httpfs extension
+INSTALL httpfs;
+LOAD httpfs;
+
+-- Query the remote Parquet file
+SELECT *
+FROM read_parquet('https://github.com/ec-jrc/KCEO-Glossary/raw/refs/heads/main/exports/parquet/terms_definition_1.parquet')
+WHERE 'Data' in term;
+```
+
+<img width="1840" height="1191" alt="image" src="https://github.com/user-attachments/assets/254f53c2-6ae7-4db4-8f4f-86037c449ee9" />
+
 
 ## To Do's:
 - Update GitHub actions to run custom scripts for cross linking, topology and dependency graph every time. Requires some careful testing. High priority.
