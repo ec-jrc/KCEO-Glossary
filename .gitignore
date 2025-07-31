@@ -1,3 +1,6 @@
+# Export files of the glossary
+exports/
+
 # MacOS stuff 
 .DS_Store
 
