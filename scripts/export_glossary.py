@@ -3,6 +3,7 @@ import glob
 import pandas as pd 
 import os
 
+os.makedirs("exports/", exist_ok=True)
 os.makedirs("exports/parquet/", exist_ok=True)
 os.makedirs("exports/xlsx/", exist_ok=True)
 
