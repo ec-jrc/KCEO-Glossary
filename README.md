@@ -1,6 +1,10 @@
 # KCEO Glossary
 Bridging EO communities. Contribute to this community-driven glossary and improve or add definitions!
 
+## Important
+The KCEO Glossary has evolved into a joint effort under https://github.com/ceos-org/eo-glossary! Please refer to this repository as main entry point. 
+This repository instead will serve to add policy-relevant terms that might not be suitable for the main repo under CEOS.
+
 ## Contributions and Feedback
 The KCEO Glossary is built for the EO community. Your feedback and ideas are fundamental for the further development of this glossary. PR's and contributions of any kind are highly welcomed. 
 
